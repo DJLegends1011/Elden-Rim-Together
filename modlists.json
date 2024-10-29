@@ -1,0 +1,43 @@
+[
+  {
+    "$type": "ModListMetadata, Wabbajack.Lib",
+    "title": "EldenRim Together",
+    "description": "ACT RPG Modpack that features modern combat and gameplay features thats not only made for single player but was made for online coop in mind",
+    "author": "DJLegends",
+    "maintainers": [
+      "github/DJLegends1011"
+    ],
+    "game": "skyrimspecialedition",
+    "tags": [
+      "Overhaul",
+      "BFCO",
+      "Roleplay",
+      "Balance",
+      "STR",
+      "Visuals",
+      "Vokriinator Black"
+    ],
+    "nsfw": false,
+    "image_contains_title": true,
+    "force_down": false,
+    "links": {
+      "$type": "Links, Wabbajack.Lib",
+      "image": "https://raw.githubusercontent.com/DJLegends1011/Elden-Rim/main/modlist-image.png",
+      "readme": "https://github.com/DJLegends1011/Elden-Rim/blob/main/README.md",
+      "download": "https://authored-files.wabbajack.org/Halgaris Helper.wabbajack_29d245c9-5f7f-4394-b600-a22e43427337",
+      "machineURL": "EldenRim",
+      "discordURL": "https://discord.gg/YwU4dF2X9V"
+    },
+    "download_metadata": {
+      "$type": "DownloadMetadata, Wabbajack.Lib",
+      "Hash": "Cn2ZymDEPTk=",
+      "Size": 652275980,
+      "NumberOfArchives": 415,
+      "SizeOfArchives": 32861485269,
+      "NumberOfInstalledFiles": 43195,
+      "SizeOfInstalledFiles": 43144950769
+    },
+    "version": "3.0"
+  }
+]
+

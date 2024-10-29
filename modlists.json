@@ -1,6 +1,5 @@
 [
   {
-    "$type": "ModListMetadata, Wabbajack.Lib",
     "title": "Elden-Rim Together",
     "description": "ACT RPG Modpack that features modern combat and gameplay features thats not only made for single player but was made for online coop in mind",
     "author": "DJLegends",
@@ -8,6 +7,7 @@
       "github/DJLegends1011"
     ],
     "game": "skyrimspecialedition",
+    "official": false,
     "tags": [
       "Overhaul",
       "BFCO",
@@ -18,26 +18,28 @@
       "Vokriinator Black"
     ],
     "nsfw": false,
+    "utility_list": false,
     "image_contains_title": true,
+    "DisplayVersionOnlyInInstallerView": false,
     "force_down": false,
     "links": {
-      "$type": "Links, Wabbajack.Lib",
       "image": "https://raw.githubusercontent.com/DJLegends1011/Elden-Rim-Together/main/modlist-image.png",
       "readme": "https://github.com/DJLegends1011/Elden-Rim/blob/main/README.md",
-      "download": "https://authored-files.wabbajack.org/EldenRim%20Together.wabbajack_a74986c8-102c-44fc-affc-7aab089a5b23",
+      "download": "https://authored-files.wabbajack.org/EldenRim Together.wabbajack_d37c44da-c72a-48dc-b183-597f98aea56a",
       "machineURL": "EldenRim",
       "discordURL": "https://discord.gg/YwU4dF2X9V"
     },
     "download_metadata": {
-      "$type": "DownloadMetadata, Wabbajack.Lib",
-      "Hash": "Cn2ZymDEPTk=",
-      "Size": 652275980,
-      "NumberOfArchives": 415,
-      "SizeOfArchives": 32861485269,
-      "NumberOfInstalledFiles": 43195,
-      "SizeOfInstalledFiles": 43144950769
+      "Hash": "EmnKgn2FdyA=",
+      "Size": 628680135,
+      "NumberOfArchives": 420,
+      "SizeOfArchives": 32915776407,
+      "NumberOfInstalledFiles": 43764,
+      "SizeOfInstalledFiles": 43549092148
     },
-    "version": "3.0"
+    "version": "3.1",
+    "dateCreated": "1970-01-01T00:00:00Z",
+    "dateUpdated": "2024-10-29T10:51:00.3118637Z",
+    "repositoryName": ""
   }
 ]
-

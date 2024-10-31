@@ -5,7 +5,7 @@ Modlist Designed with Modern ACT features and gameplay with Multiplayer (E.G. Sk
 
 ## INTRODUCTION
 
-**Wabbajack Version: 3.0.3 (Released 10/29/2024)**  
+**Wabbajack Version: 3.0.8 (Released 10/29/2024)**  
 
 *Permanent Support Home:  [Elden Rim Together](https://discord.gg/YwU4dF2X9V)*  
 

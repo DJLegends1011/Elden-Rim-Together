@@ -25,21 +25,21 @@
     "links": {
       "image": "https://raw.githubusercontent.com/DJLegends1011/Elden-Rim-Together/main/modlist-image.png",
       "readme": "https://github.com/DJLegends1011/Elden-Rim/blob/main/README.md",
-      "download": "https://authored-files.wabbajack.org/EldenRim Together.wabbajack_f6d2062f-18e7-4ea4-9679-ae666007ed21",
+      "download": "https://authored-files.wabbajack.org/EldenRim Together.wabbajack_9443e37a-c18f-4d8c-b884-3fc15603dabb",
       "machineURL": "EldenRim",
       "discordURL": "https://discord.gg/YwU4dF2X9V"
     },
     "download_metadata": {
-      "Hash": "TcKH1nImk0Q=",
-      "Size": 54938640,
-      "NumberOfArchives": 618,
-      "SizeOfArchives": 54398646903,
-      "NumberOfInstalledFiles": 113935,
-      "SizeOfInstalledFiles": 78720795912
+      "Hash": "QIUjptUo1DU=",
+      "Size": 54980330,
+      "NumberOfArchives": 620,
+      "SizeOfArchives": 53844684685,
+      "NumberOfInstalledFiles": 114043,
+      "SizeOfInstalledFiles": 78669850905
     },
-    "version": "3.2.0",
+    "version": "3.2.1",
     "dateCreated": "1970-01-01T00:00:00Z",
-    "dateUpdated": "2024-12-23T08:30:38.0722223Z",
+    "dateUpdated": "2025-01-06T19:24:40.7338822Z",
     "repositoryName": ""
   }
 ]

@@ -199,7 +199,7 @@ This modpack has been in development for nearly six years, carefully testing and
    Skyrim Together Reborn is already included in the modpack, but needs to know where your Skyrim installation is located:
 
    - Launch Mod Organizer 2 (`ModOrganizer.exe`)
-   - In the top-right dropdown, select **"SkyrimTogetherServer"** from the profile list
+   - In the top-right dropdown, select **"SkyrimTogether"** from the profile list
    - **Hold the SPACEBAR** while clicking the **"Run"** button
    - A file browser will pop up asking for `SkyrimSE.exe`
    - Navigate to: `[Your Modpack Install]\Stock Game\SkyrimSE.exe`

@@ -27,7 +27,7 @@ Elden Rim Together is a comprehensive Skyrim Special Edition modpack that combin
 ## Overview
 
 **Current Version:** 3.2.9
-**Last Updated:** November 10, 2024
+**Last Updated:** November 9, 2025
 **Wabbajack File:** `Elden Rim Together.wabbajack`
 **Game Version:** Skyrim Special Edition 1.6.1170+
 **Creation Club:** Compatible with the 4 FREE Creation Club items (Fishing, Rare Curios, Survival Mode, Saints & Seducers). NOT compatible with the full Anniversary Edition bundle.

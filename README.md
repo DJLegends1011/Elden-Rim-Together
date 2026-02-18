@@ -26,8 +26,8 @@ Elden Rim Together is a comprehensive Skyrim Special Edition modpack that combin
 
 ## Overview
 
-**Current Version:** 3.2.9
-**Last Updated:** November 9, 2025
+**Current Version:** 3.3.0
+**Last Updated:** February 17, 2026
 **Wabbajack File:** `Elden Rim Together.wabbajack`
 **Game Version:** Skyrim Special Edition 1.6.1170+
 **Creation Club:** Compatible with the 4 FREE Creation Club items (Fishing, Rare Curios, Survival Mode, Saints & Seducers). NOT compatible with the full Anniversary Edition bundle.
@@ -315,7 +315,7 @@ Use a VPN service like **Hamachi** or **Radmin VPN**:
 
 3. **MCM Configuration**
    - Press `Escape` → Mod Configuration
-   - **Auto Saver:** Set to your preference (recommended: 10 minutes)
+   - **Auto Saver:** Configured to save after combat ends (not at combat start)
    - **TrueHUD:** Customize boss bar position
    - **SkyUI:** Configure inventory preferences
    - **Experience:** Adjust XP gain rates if desired
@@ -756,5 +756,5 @@ This modlist is provided free of charge for personal use. All mods remain the pr
 
 **Enjoy your journey through Skyrim with friends!**
 
-*Last Updated: November 10, 2024*
-*Version: 3.2.9*
+*Last Updated: February 17, 2026*
+*Version: 3.3.0*

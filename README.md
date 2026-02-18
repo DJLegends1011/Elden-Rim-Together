@@ -26,7 +26,7 @@ Elden Rim Together is a comprehensive Skyrim Special Edition modpack that combin
 
 ## Overview
 
-**Current Version:** 3.3.0
+**Current Version:** 3.3.1
 **Last Updated:** February 17, 2026
 **Wabbajack File:** `Elden Rim Together.wabbajack`
 **Game Version:** Skyrim Special Edition 1.6.1170+
@@ -757,4 +757,4 @@ This modlist is provided free of charge for personal use. All mods remain the pr
 **Enjoy your journey through Skyrim with friends!**
 
 *Last Updated: February 17, 2026*
-*Version: 3.3.0*
+*Version: 3.3.1*

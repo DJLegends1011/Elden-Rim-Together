@@ -1,4 +1,4 @@
-# EldenRimTogether Wabbajack Changelog + Info :: Version 3.3.0
+# EldenRimTogether Wabbajack Changelog + Info :: Version 3.3.1
 =======================================
 
 **Mod Organizer 2 Version ::** 2.5.2 ML1.5 (Windows), 2.5.2 (Windows)

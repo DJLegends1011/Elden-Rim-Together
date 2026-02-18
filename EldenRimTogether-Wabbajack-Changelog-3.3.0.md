@@ -28,7 +28,20 @@ XX/XX/XXXX XX:XX UTC :: Launch - Unknown
 ---
 
 02/17/2026 XX:XX UTC :: Launch - Unknown | STR Launch - Unknown
-// Big update - 2 mod updates, 5 new mods added, 2 mods removed
+// HOTFIX - Dagoth Ur follower added, Nemesis renamed to Pandora, Bodyslide rebuilt
+```
+# 11.7 FOLLOWERS
++E (Lore Accurate) Dagoth Ur Follower // Added version 1.17.0.0
+
+# 17. TOOL OUTPUTS
+M 17.3 Bodyslide Output // Updated from 3.2.6.0 to 3.3.0.0
+M 17.4 Nemesis Output → 17.4 Pandora Output // Renamed for consistency, version 3.3.0.0
+```
+
+---
+
+02/17/2026 XX:XX UTC :: Launch - Unknown | STR Launch - Unknown
+// Big update - 2 mod updates, 7 new mods added, 2 mods removed
 ```
 # 01.1 EARLY LOADERS - CORE
 M Skyrim Extended Cut Saints and Seducers - Quest Patch // Updated from 2.0.0.0 to 3.0.0.0
@@ -45,6 +58,8 @@ M Skyrim Extended Cut Saints and Seducers - Quest Patch // Updated from 2.0.0.0 
 M RaceMenu OverlayFix and Various Mod Fixes // Updated from 1.52.0.0rc-prerelease to 1.53.0.0
 
 # 12.4 CREATURES - NEW
++E Chickens and Chicks- Mihail Monsters and Animals (SE-AE version) // Added version 1.0.0.0
++E Roosters- Mihail Monsters and Animals (SE-AE version) // Added version 1.0.0.0
 +E THICCEN - Fat Chickens // Added version PLUMPY - Added per community request
 
 # 16.4 SKYRIM TOGETHER REBORN

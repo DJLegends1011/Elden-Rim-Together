@@ -20,6 +20,24 @@ M = Modified Mod (Give summary of changes)
 
 # Version 3.4.0
 
+06/06/2026 XX:XX UTC :: SKSE Launch - Success | STR Launch - Untested
+// Pre-Wabbajack push - 3 silent mod updates and 1 rename caught after the 06/04 scan
+// AP Reborn 1.4 was a silent Nexus release MO2 didn't auto-detect; installed manually
+// Oathvein UI ultrawide patch was renamed by the author; StartupDashboard.rules.json updated to match
+```
+# 01.1 EARLY LOADERS - CORE
+M Alternate Perspective Reborn // Updated from 1.0.1.0 to 1.4.0.0 - Silent Nexus release: better forced perspective on distant mountains, new Eternal Dawn Statue of Akatosh asset for Shrines and Guardian Stones patch
+
+# 02.3 UI
+M Oathvein UI - 21x9 UltraWide Version // Renamed from "Oathvein UI - 219" and updated from 1.2.1.0 to 1.2.2.0; StartupDashboard.rules.json line 215 updated to match
+
+# 14.4 IDLES - OTHER ANIMATIONS
+M Arm Movement Animations (OAR) // Updated from 2.2.0.0 to 3.0.0.0
+M Dynamic Female Modesty KID // Updated from 5.0.0.0 to 6.0.0.0
+```
+
+---
+
 06/04/2026 XX:XX UTC :: Launch - Success | STR Launch - Untested
 // Version 3.4.0 - Major update after 3.5 months - Mass mod updates across all categories
 // NEW SAVE REQUIRED - Combat system overhaul (BFCO, OAR major version bumps)

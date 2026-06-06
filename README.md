@@ -39,6 +39,16 @@ A Wabbajack modpack built around the hard part: making a heavily-modded, modern 
 <summary><b>What does this modpack actually feel like?</b></summary>
 <br>
 
+**Before**
+
+You open your eyes on a balcony of weathered stone, high above Nirn. Clouds drift past your feet. The Sovngarde sky burns gold and impossible overhead. No cart, no executioner, no dragon — not yet. Just wind, silence, and a choice to make.
+
+The Messenger waits near the edge — a dragon, ancient and patient. Talk to him and he asks where your story begins: soldier, outlaw, stranger to the land. Or step over to the Statue of Akatosh and pick your scenario there. Around the ruin sit a handful of offering chests: a weapon, a little coin, a few gems for a rainy day. Take what feels right.
+
+Then you step off the mountain. Skyrim happens to you.
+
+**After**
+
 You step out into Skyrim and immediately notice — this isn't the game you remember.
 
 The combat is sharp. Every swing has weight, every parry is a commitment. You dodge a bandit's overhead strike and riposte with your katana — Elden Ring muscle memory kicking in. But this bandit isn't the pushover you expected. He's a Manhunter, and his buddy — a Shadowblade — just flanked you. They have abilities. They fight smart. You barely survive.
@@ -153,21 +163,21 @@ When Wabbajack completes, use the **"Create Shortcuts"** button it provides (rec
 
 ## ✅ First launch checklist
 1. Launch **Mod Organizer 2** from your installed modlist folder
-2. The **startup dashboard** appears — configure resolution, ENB, frame gen, gamepad, NSFW, etc., then click **Apply**
+2. The **startup dashboard** appears. Configure resolution, ENB, frame gen, gamepad, NSFW, etc., then click **Apply**
 3. Select **SKSE** from the executable dropdown (top right) → click **Run**
-4. Start a **new game** — old saves are not compatible
+4. Start a **new game**. Old saves are not compatible
 5. Pick your origin in the **Alternate Perspective Reborn** hub (see below)
 
 ### Picking your start (Alternate Perspective Reborn)
 You'll spawn in AP Reborn's hub instead of the vanilla cart. Two interactables:
-- **The Messenger (dragon)** — talk to it → pick a starting scenario and location
-- **Statue of Akatosh** — same scenario menu, alternate way to open it
+- **The Messenger (dragon)**: talk to it → pick a starting scenario and location
+- **Statue of Akatosh**: same scenario menu, alternate way to open it
 
-Have a look around the hub before you leave — there are chests with starter gear, a few gems, and some coin to get you going.
+Have a look around the hub before you leave. There are chests with starter gear, a few gems, and some coin to get you going.
 
 **Two ways to start a co-op session:**
-- **A) Meet in the hub** — everyone connects while still in AP's hub, picks their scenario together, then leaves the hub at the same time
-- **B) Solo, then meet up** — each player picks their scenario solo, exits the hub, *then* connects and meets up at one player's assigned spawn location
+- **A) Meet in the hub**: everyone connects while still in AP's hub, picks their scenario together, then leaves the hub at the same time
+- **B) Solo, then meet up**: each player picks their scenario solo, exits the hub, *then* connects and meets up at one player's assigned spawn location
 
 From here, you can roam Skyrim freely with your buddies. If you want to start the **Main Quest**, see the Helgen note below. Heads-up: **some quests won't start until the vanilla intro is completed**, so most groups end up doing the intro at some point.
 
@@ -181,7 +191,7 @@ AP starts you **before** the dragon attack, so the vanilla intro doesn't auto-pl
 Want to tweak ENB / frame gen / gamepad / NSFW after the fact?
 1. In MO2's top toolbar, click the **puzzle piece icon**
 2. Select **Modular MO2 Dashboard** from the list
-3. Follow the prompt to **restart MO2** — the dashboard wizard will come back on next launch
+3. Follow the prompt to **restart MO2**. The dashboard wizard will come back on next launch
 
 ### Key bindings reference
 | Key | Action |
@@ -204,7 +214,7 @@ Full bindings: [Control Bindings](https://github.com/DJLegends1011/Elden-Rim-Tog
 3. Hold **`SPACEBAR`** and click **Run**
 4. When prompted, select: `[Your Install]\Stock Game\SkyrimSE.exe`
    - Example: `C:\Modlists\Elden\Stock Game\SkyrimSE.exe`
-5. Launch again (no SPACEBAR) — STR will remember the path
+5. Launch again (no SPACEBAR). STR will remember the path
 
 If you picked the wrong .exe, see [this troubleshooting page](https://wiki.tiltedphoques.com/tilted-online/guides/troubleshooting/help-i-selected-the-wrong-.exe-when-first-launching-skyrimtogether.md).
 
@@ -216,26 +226,26 @@ If you picked the wrong .exe, see [this troubleshooting page](https://wiki.tilte
 5. Enter:
    - **Address:** `<host IP>:10578` (or whatever port the host set)
    - **Password:** whatever the host set (blank if no password)
-6. Click **`Connect`** — chat will say `Succesfully connected to a server`
+6. Click **`Connect`**. Chat will say `Succesfully connected to a server`
 
 ### Multiplayer tips
-- **Save often** — desyncs happen
-- **Stay close** — STR works best when players are near each other
-- **Coordinate fast travel** — don't teleport without warning your party
-- **Same modlist, same version** — everyone needs identical loadorder and modpack version
+- **Save often**: desyncs happen
+- **Stay close**: STR works best when players are near each other
+- **Coordinate fast travel**: don't teleport without warning your party
+- **Same modlist, same version**: everyone needs identical loadorder and modpack version
 
 ---
 
 ## Hosting your own server
 
-You host by running **`SkyrimTogetherServer.exe`**, a separate program that ships with the STR mod. The server can run on the same PC as your game, or on a different machine — it doesn't matter.
+You host by running **`SkyrimTogetherServer.exe`**, a separate program that ships with the STR mod. The server can run on the same PC as your game, or on a different machine. It doesn't matter.
 
 ### Step 1 — Launch the server (one-time firewall step)
 1. Open MO2 → right-click the **Skyrim Together Reborn** mod → **Open in Explorer**
 2. Open the inner `Skyrim Together Reborn` folder
 3. Double-click **`SkyrimTogetherServer.exe`**
 4. Windows Firewall will pop up → **Allow on BOTH Private AND Public networks**
-5. A console window stays open — that's your server. Closing it shuts down the server.
+5. A console window stays open. That's your server. Closing it shuts down the server.
 
 > 💡 The default port is **`10578`** (both UDP **and** TCP). That's the only number your friends need.
 
@@ -248,7 +258,7 @@ Three ways to let friends reach you. Pick one:
 3. You (the host) connect to `127.0.0.1:10578` from your own client
 4. Done. No port forwarding, no VPN.
 
-#### Option B — VPN (Radmin) — best for playing online without router setup
+#### Option B — Radmin VPN (easiest for online play without router setup)
 **Host:**
 1. Download & install [Radmin VPN](https://www.radmin-vpn.com/) (free, Windows)
 2. Click **`Create network`** → set a network name + password → **`Create`**
@@ -272,7 +282,7 @@ Use this if you want a permanent public server. Skip if Option B works for you.
    - **Service Name:** Skyrim Together
    - **External Port:** `10578`
    - **Internal Port:** `10578`
-   - **Protocol:** **Both** (TCP **and** UDP) — if your router only allows one, make **two** rules
+   - **Protocol:** **Both** (TCP **and** UDP). If your router only allows one, make **two** rules
    - **Internal IP:** your PC's local IPv4 (from `ipconfig`)
 4. Add a Windows Firewall inbound rule for **UDP 10578** AND **TCP 10578**
 5. Get your public IP from [icanhazip.com](https://icanhazip.com/)
@@ -286,15 +296,15 @@ Use this if you want a permanent public server. Skip if Option B works for you.
 Server config lives at: `[STR mod folder]\config\STServer.ini`
 
 Most useful keys:
-- `sPassword=` — server password (blank = no password)
-- `sServerName=` — name shown in server list
-- `uMaxPlayerCount=8` — max players
-- `uPort=10578` — change if you want a non-default port
-- `bAnnounceServer=false` — set `true` to show in the public server list (only works if no password)
+- `sPassword=`: server password (blank = no password)
+- `sServerName=`: name shown in server list
+- `uMaxPlayerCount=8`: max players
+- `uPort=10578`: change if you want a non-default port
+- `bAnnounceServer=false`: set `true` to show in the public server list (only works if no password)
 
 Full reference: [STR Server Configuration](https://wiki.tiltedphoques.com/tilted-online/guides/server-guide/server-configuration)
 
-> ⚠️ **Stop the server before editing `STServer.ini`** — changes mid-run get overwritten.
+> ⚠️ **Stop the server before editing `STServer.ini`.** Changes mid-run get overwritten.
 
 ---
 
@@ -311,61 +321,61 @@ Full reference: [STR Server Configuration](https://wiki.tiltedphoques.com/tilted
 <br>
 
 ### Loot balance (Open World Loot)
-- **Loot scales with your level**, but with guardrails — no glass armor on roadside bandits
-- **High-tier gear is earned** — Ebony+ only appears in boss chests and from high-level enemies
-- **Unique artifacts are your real endgame** — normal loot is a stepping stone, not the destination
+- **Loot scales with your level**, but with guardrails. No glass armor on roadside bandits
+- **High-tier gear is earned**: Ebony+ only appears in boss chests and from high-level enemies
+- **Unique artifacts are your real endgame**: normal loot is a stepping stone, not the destination
 
 ### Encounter zones (Roleplaying in Skyrim)
-- **The world isn't deleveled** — you can explore freely, but enemy difficulty has floors based on what lives there
-- **Enemy type matters most** — bandit camps are manageable early on, but vampire lairs, Falmer hives, and Dragon Priest dungeons have high minimum levels regardless of your level
-- **Location matters too** — dungeons near major holds are easier; secluded or high-altitude areas are significantly tougher
-- **Encounters are randomized** — enemy levels shift each time you enter an area, so the same dungeon can feel different on a second visit
-- **Some enemies will chase you** — combat boundaries are removed in many zones, so retreating through a door isn't always a safe exit
-- **Don't be afraid to leave** — if a dungeon is wiping you, come back later. That's intended
+- **The world isn't deleveled**: you can explore freely, but enemy difficulty has floors based on what lives there
+- **Enemy type matters most**: bandit camps are manageable early on, but vampire lairs, Falmer hives, and Dragon Priest dungeons have high minimum levels regardless of your level
+- **Location matters too**: dungeons near major holds are easier; secluded or high-altitude areas are significantly tougher
+- **Encounters are randomized**: enemy levels shift each time you enter an area, so the same dungeon can feel different on a second visit
+- **Some enemies will chase you**: combat boundaries are removed in many zones, so retreating through a door isn't always a safe exit
+- **Don't be afraid to leave**: if a dungeon is wiping you, come back later. That's intended
 
 ### Economy (Roleplaying in Skyrim - Evolving Economy)
-- **Prices aren't static** — the economy evolves based on the Civil War, seasons, location, and your reputation
-- **Supply and demand applies** — resource-rich holds have cheaper goods; remote or war-torn areas cost more
-- **Winter hits the wallet** — harsh seasons drive prices up, especially in northern holds
-- **Your reputation matters** — progressing through major factions (Companions, College, Thieves Guild, Dark Brotherhood) improves prices across all merchants
-- **Everything costs more** — housing, carriages, hirelings, and services are all pricier than vanilla. Jobs pay less too
-- **Clearing enemies helps commerce** — making roads safer improves trade prices, but also raises property values
+- **Prices aren't static**: the economy evolves based on the Civil War, seasons, location, and your reputation
+- **Supply and demand applies**: resource-rich holds have cheaper goods; remote or war-torn areas cost more
+- **Winter hits the wallet**: harsh seasons drive prices up, especially in northern holds
+- **Your reputation matters**: progressing through major factions (Companions, College, Thieves Guild, Dark Brotherhood) improves prices across all merchants
+- **Everything costs more**: housing, carriages, hirelings, and services are all pricier than vanilla. Jobs pay less too
+- **Clearing enemies helps commerce**: making roads safer improves trade prices, but also raises property values
 
 ### Enemies (Rogues 'n Raiders + creature overhauls)
-- **Bandits are no longer pushovers** — enemy NPCs have been overhauled with new classes, perks, combat styles, and special attacks
-- **Variety is real** — you'll encounter Berserkers, Rogues, Shadowblades, Manhunters, Bruisers, Wildlings, and more, each fighting differently
-- **Enemies have abilities** — different classes have unique attacks that can inflict injuries and debuffs, so tanking hits has consequences
-- **Mages are deadlier too** — Necromancers, Conjurers, and Elementalists each have distinct spellsets and faction abilities
-- **Veterans show up early** — tougher veteran enemies can appear from level 6 onward, so don't assume early dungeons are a cakewalk
-- **Creatures are overhauled too** — vampires, dragons, draugr, and other creatures are all stronger and more varied than vanilla. Don't expect a level 3 dragon fight to go like base Skyrim
+- **Bandits are no longer pushovers**: enemy NPCs have been overhauled with new classes, perks, combat styles, and special attacks
+- **Variety is real**: you'll encounter Berserkers, Rogues, Shadowblades, Manhunters, Bruisers, Wildlings, and more, each fighting differently
+- **Enemies have abilities**: different classes have unique attacks that can inflict injuries and debuffs, so tanking hits has consequences
+- **Mages are deadlier too**: Necromancers, Conjurers, and Elementalists each have distinct spellsets and faction abilities
+- **Veterans show up early**: tougher veteran enemies can appear from level 6 onward, so don't assume early dungeons are a cakewalk
+- **Creatures are overhauled too**: vampires, dragons, draugr, and other creatures are all stronger and more varied than vanilla. Don't expect a level 3 dragon fight to go like base Skyrim
 
 ### Stress & fear (Stress and Fear + Stressful Darkness)
-- **Combat causes stress** — getting hurt builds stress, which reduces your max stamina and magicka over time
-- **Darkness is stressful too** — lingering in dark dungeons without a light source raises stress and makes your vision worse. Bring a torch
-- **Phobias can develop** — barely surviving a fight against a creature type (wolves, dragons, Falmer, etc.) can give you a fear of that enemy, reducing your damage against them by 25%
-- **Face your fears to conquer them** — defeating enemies you're afraid of can cure the phobia, granting permanent 10% bonus damage against that type and immunity to that fear
-- **Relax to de-stress** — drink alcohol, eat comfort food, pet a dog, go fishing, take a bath, sleep at an inn, or play music to bring stress back down
+- **Combat causes stress**: getting hurt builds stress, which reduces your max stamina and magicka over time
+- **Darkness is stressful too**: lingering in dark dungeons without a light source raises stress and makes your vision worse. Bring a torch
+- **Phobias can develop**: barely surviving a fight against a creature type (wolves, dragons, Falmer, etc.) can give you a fear of that enemy, reducing your damage against them by 25%
+- **Face your fears to conquer them**: defeating enemies you're afraid of can cure the phobia, granting permanent 10% bonus damage against that type and immunity to that fear
+- **Relax to de-stress**: drink alcohol, eat comfort food, pet a dog, go fishing, take a bath, sleep at an inn, or play music to bring stress back down
 
 ### Survival (The Frozen North)
-- **Cold weather matters** — snowstorms, nighttime, and icy regions drain your stamina regen. Combined with stress, your stamina can take a real hit if you're cold AND stressed
-- **Bring warm gear** — clothing warmth rating determines how well you handle the cold (same system as CC Survival Mode)
-- **Can't fast travel when freezing** — if you're Cold or Freezing, you need to warm up before you can fast travel or wait
-- **Food gives small bonuses** — eating enough to restore 10 HP gives "Well Fed" (20% faster health regen for 8 hours). No punishment for skipping meals
-- **Sleep to level up** — you must rest to spend perk points. Sleeping well after eating gives bonus stamina or magicka regen for the day
-- **Soups are your friend** — rebalanced soups provide sustained health/stamina recovery in the cold. Alcohol gives quick stamina relief but slows regen after
+- **Cold weather matters**: snowstorms, nighttime, and icy regions drain your stamina regen. Combined with stress, your stamina can take a real hit if you're cold AND stressed
+- **Bring warm gear**: clothing warmth rating determines how well you handle the cold (same system as CC Survival Mode)
+- **Can't fast travel when freezing**: if you're Cold or Freezing, you need to warm up before you can fast travel or wait
+- **Food gives small bonuses**: eating enough to restore 10 HP gives "Well Fed" (20% faster health regen for 8 hours). No punishment for skipping meals
+- **Sleep to level up**: you must rest to spend perk points. Sleeping well after eating gives bonus stamina or magicka regen for the day
+- **Soups are your friend**: rebalanced soups provide sustained health/stamina recovery in the cold. Alcohol gives quick stamina relief but slows regen after
 
 ### Combat
-- **Learn to parry** — Elden Parry is powerful but requires timing
-- **Manage stamina** — every attack costs stamina, don't mash
-- **Weapon movesets matter** — katanas, rapiers, twinblades, and scythes all play differently
-- **Hold attack for power moves** — heavy/special attacks on hold
-- **Use your movement** — True Directional Movement lets you strafe and backpedal mid-fight
+- **Learn to parry**: Elden Parry is powerful but requires timing
+- **Manage stamina**: every attack costs stamina, don't mash
+- **Weapon movesets matter**: katanas, rapiers, twinblades, and scythes all play differently
+- **Hold attack for power moves**: heavy/special attacks on hold
+- **Use your movement**: True Directional Movement lets you strafe and backpedal mid-fight
 
 ### Multiplayer
-- **Save often** — desyncs happen, save frequently
-- **Do quests together** — quest sync works best when you're both present
-- **Stay close** — STR works best when players are near each other
-- **Coordinate fast travel** — don't teleport away from your co-op partner
+- **Save often**: desyncs happen, save frequently
+- **Do quests together**: quest sync works best when you're both present
+- **Stay close**: STR works best when players are near each other
+- **Coordinate fast travel**: don't teleport away from your co-op partner
 
 </details>
 
@@ -504,7 +514,7 @@ A: No, you must start a new game with this modlist. Old saves can crash or behav
 A: Re-run Wabbajack with the new modlist file and point it at the same install/download folders. It will only download changed files (when possible).
 
 **Q: Can I use this without multiplayer?**
-A: Yes — single-player works great too.
+A: Yes, single-player works great too.
 
 **Q: Is Creation Club content required?**
 A: Only the **4 FREE Creation Club items** are compatible (Fishing, Rare Curios, Survival Mode, Saints & Seducers). The full Anniversary Edition upgrade bundle (100+ paid CC content) is **not compatible** with this version. An AE-compatible variant may be released later.
@@ -513,10 +523,10 @@ A: Only the **4 FREE Creation Club items** are compatible (Fishing, Rare Curios,
 A: Yes, but performance and visuals may vary. If the pack ships with a tuned ENB preset, that is the recommended baseline.
 
 **Q: Why is my character moving slowly?**
-A: Check if Survival Mode is enabled — it can affect carry weight and movement speed.
+A: Check if Survival Mode is enabled. It can affect carry weight and movement speed.
 
 **Q: Can I use controllers?**
-A: Yes. Controller support is included — see the bindings reference if anything feels off.
+A: Yes. Controller support is included. See the bindings reference if anything feels off.
 
 ---
 
@@ -538,14 +548,14 @@ A: Yes. Controller support is included — see the bindings reference if anythin
 
 ## Credits / License
 
-**Modlist Author:** [DJLegends1011](https://github.com/DJLegends1011) — creator and maintainer
+**Modlist Author:** [DJLegends1011](https://github.com/DJLegends1011), creator and maintainer
 
 **Special Thanks:**
-- Skyrim Together Reborn Team — for making multiplayer Skyrim possible
-- Wabbajack Team — for the automated modlist installer
-- SKSE Team — for the Script Extender
-- All mod authors — for the incredible mods that make this possible
-- The Discord community — for testing, feedback, and support
+- Skyrim Together Reborn Team: for making multiplayer Skyrim possible
+- Wabbajack Team: for the automated modlist installer
+- SKSE Team: for the Script Extender
+- All mod authors: for the incredible mods that make this possible
+- The Discord community: for testing, feedback, and support
 
 This modlist is provided free of charge for personal use. All mods remain the property of their original creators. Please support mod authors by endorsing their work on Nexus Mods.
 

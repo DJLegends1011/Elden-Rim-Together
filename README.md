@@ -8,8 +8,8 @@ A Wabbajack modpack built around the hard part: making a heavily-modded, modern 
 
 ---
 
-**Current Version:** 3.3.1
-**Last Updated:** February 17, 2026
+**Current Version:** 3.4.0
+**Last Updated:** June 6, 2026
 **Game Version:** Skyrim Special Edition 1.6.1170+
 **Wabbajack File:** `Elden Rim Together.wabbajack`
 
@@ -153,15 +153,40 @@ When Wabbajack completes, use the **"Create Shortcuts"** button it provides (rec
 
 ## ✅ First launch checklist
 1. Launch **Mod Organizer 2** from your installed modlist folder
-2. The **startup dashboard** will appear — use it to configure your resolution, ENB, frame generation, and other settings
+2. The **startup dashboard** appears — configure resolution, ENB, frame gen, gamepad, NSFW, etc., then click **Apply**
 3. Select **SKSE** from the executable dropdown (top right) → click **Run**
-5. Start a **new game** — old saves are not compatible
-6. Choose your start via **Alternate Perspective** — talk to the dragon in the starting area to pick your origin
+4. Start a **new game** — old saves are not compatible
+5. Pick your origin in the **Alternate Perspective Reborn** hub (see below)
+
+### Picking your start (Alternate Perspective Reborn)
+You'll spawn in AP Reborn's hub instead of the vanilla cart. Two interactables:
+- **The Messenger (dragon)** — talk to it → pick a starting scenario and location
+- **Statue of Akatosh** — same scenario menu, alternate way to open it
+
+Have a look around the hub before you leave — there are chests with starter gear, a few gems, and some coin to get you going.
+
+**Two ways to start a co-op session:**
+- **A) Meet in the hub** — everyone connects while still in AP's hub, picks their scenario together, then leaves the hub at the same time
+- **B) Solo, then meet up** — each player picks their scenario solo, exits the hub, *then* connects and meets up at one player's assigned spawn location
+
+From here, you can roam Skyrim freely with your buddies. If you want to start the **Main Quest**, see the Helgen note below. Heads-up: **some quests won't start until the vanilla intro is completed**, so most groups end up doing the intro at some point.
+
+### Want to watch the vanilla Helgen intro?
+AP starts you **before** the dragon attack, so the vanilla intro doesn't auto-play.
+- Travel to **Helgen** → talk to the **innkeeper** → rent the room marked `(start intro)`
+- You'll watch the attack as a **bystander**, not as the prisoner on the cart
+- If the intro bugs out mid-cutscene, **disconnect**, finish it solo, then reconnect after
+
+### Changing dashboard settings later
+Want to tweak ENB / frame gen / gamepad / NSFW after the fact?
+1. In MO2's top toolbar, click the **puzzle piece icon**
+2. Select **Modular MO2 Dashboard** from the list
+3. Follow the prompt to **restart MO2** — the dashboard wizard will come back on next launch
 
 ### Key bindings reference
 | Key | Action |
 |---|---|
-| `Right Ctrl` | Skyrim Together Reborn menu |
+| `Right Ctrl` / `F2` | Skyrim Together Reborn UI (STRUI) |
 | `Tab` | Inventory |
 | `M` | Map |
 | `K` | Skills |
@@ -172,60 +197,104 @@ Full bindings: [Control Bindings](https://github.com/DJLegends1011/Elden-Rim-Tog
 ---
 
 ## Skyrim Together Reborn setup
-Skyrim Together Reborn (STR) is included in this modpack, but it needs one-time setup so it knows which `SkyrimSE.exe` to launch.
 
-### One-time "point STR to SkyrimSE.exe"
+### One-time client setup ("point STR to SkyrimSE.exe")
 1. Open **Mod Organizer 2**
-2. Select **`SkyrimTogether`** (or the STR entry) in the executable dropdown
+2. Pick **`SkyrimTogether`** from the executable dropdown
 3. Hold **`SPACEBAR`** and click **Run**
-4. When prompted, select the modlist's Stock Game executable:
-   - Path: `[Your Install]\Stock Game\SkyrimSE.exe`
+4. When prompted, select: `[Your Install]\Stock Game\SkyrimSE.exe`
    - Example: `C:\Modlists\Elden\Stock Game\SkyrimSE.exe`
-5. Launch again (no SPACEBAR). STR should now remember the path.
+5. Launch again (no SPACEBAR) — STR will remember the path
 
-### Quick connect / host
-- **Open STR menu**: press `Right Ctrl` (default)
-- **Join**: Connect → enter `IP:10578`
-- **Host**: Host → share your `IP:10578` (default port is **UDP 10578**)
+If you picked the wrong .exe, see [this troubleshooting page](https://wiki.tiltedphoques.com/tilted-online/guides/troubleshooting/help-i-selected-the-wrong-.exe-when-first-launching-skyrimtogether.md).
 
-### Hosting your own server
-
-#### Easy method (Local Network / Same house)
-1. Launch the game via MO2 using the **`SkyrimTogether`** entry
-2. Press `Right Ctrl` → click **Host**
-3. Note the port (default: **10578**)
-4. Find your local IP:
-   - Press `Win + R` → type `cmd` → Enter
-   - Run `ipconfig`
-   - Find **IPv4 Address** (looks like `192.168.x.x`)
-5. Share with friends on the same network: `192.168.x.x:10578`
-
-#### Advanced method (Internet play)
-1. **Port forward on your router** (typical router page is `192.168.1.1` or `192.168.0.1`)
-   - Create a rule:
-     - **Service name**: Skyrim Together
-     - **Port**: `10578`
-     - **Protocol**: **UDP**
-     - **Internal IP**: your PC's local IP (from `ipconfig`)
-2. Find your public IP:
-   - Use a site like [whatismyipaddress.com](https://whatismyipaddress.com/)
-3. Add a Windows Firewall inbound rule:
-   - Windows Security → Firewall & network protection → Advanced settings
-   - Inbound Rules → New Rule → **Port**
-   - **UDP**, port **10578** → Allow → name it "Skyrim Together Reborn"
-4. Host in-game (Right Ctrl → Host) and share: `<your public IP>:10578`
-
-#### Easiest method (No port forwarding): VPN
-- Use [**Radmin VPN**](https://www.radmin-vpn.com/) or **Hamachi**
-- Create/join a VPN network with your friend(s)
-- Connect using the VPN IP: `VPN-IP:10578`
+### Joining a server (every player does this)
+1. Launch the game via MO2 → **`SkyrimTogether`** → **Run**
+2. Get through AP Reborn into the actual world (intro is optional, see First Launch)
+3. Press **`Right Ctrl`** or **`F2`** → STRUI opens
+4. Click **`Connect`**
+5. Enter:
+   - **Address:** `<host IP>:10578` (or whatever port the host set)
+   - **Password:** whatever the host set (blank if no password)
+6. Click **`Connect`** — chat will say `Succesfully connected to a server`
 
 ### Multiplayer tips
-- **Save often**: desyncs happen — save frequently
-- **Quest progress**: some quests work better when done together
-- **Load order**: all players must have identical mod load orders
-- **Version matching**: everyone must use the same modlist version
-- **Server host**: the host should have the best internet connection
+- **Save often** — desyncs happen
+- **Stay close** — STR works best when players are near each other
+- **Coordinate fast travel** — don't teleport without warning your party
+- **Same modlist, same version** — everyone needs identical loadorder and modpack version
+
+---
+
+## Hosting your own server
+
+You host by running **`SkyrimTogetherServer.exe`**, a separate program that ships with the STR mod. The server can run on the same PC as your game, or on a different machine — it doesn't matter.
+
+### Step 1 — Launch the server (one-time firewall step)
+1. Open MO2 → right-click the **Skyrim Together Reborn** mod → **Open in Explorer**
+2. Open the inner `Skyrim Together Reborn` folder
+3. Double-click **`SkyrimTogetherServer.exe`**
+4. Windows Firewall will pop up → **Allow on BOTH Private AND Public networks**
+5. A console window stays open — that's your server. Closing it shuts down the server.
+
+> 💡 The default port is **`10578`** (both UDP **and** TCP). That's the only number your friends need.
+
+### Step 2 — Pick a hosting method
+Three ways to let friends reach you. Pick one:
+
+#### Option A — Same house / same WiFi (easiest)
+1. Open Command Prompt → type `ipconfig` → find **IPv4 Address** (looks like `192.168.x.x`)
+2. Friends connect to `192.168.x.x:10578` from STRUI
+3. You (the host) connect to `127.0.0.1:10578` from your own client
+4. Done. No port forwarding, no VPN.
+
+#### Option B — VPN (Radmin) — best for playing online without router setup
+**Host:**
+1. Download & install [Radmin VPN](https://www.radmin-vpn.com/) (free, Windows)
+2. Click **`Create network`** → set a network name + password → **`Create`**
+3. Share the **network name + password** with friends (not your IP)
+4. Once a friend joins the network, your Radmin IP shows next to your name in the main window
+5. Give them `<your Radmin IP>:10578` to connect in STRUI
+
+**Friend:**
+1. Install Radmin VPN
+2. Click **`Join network`** → enter the host's network name + password → **`Join`**
+3. Connect in STRUI to `<host Radmin IP>:10578`
+
+Alternatives that work the same way: [ZeroTier](https://www.zerotier.com/) (account + network ID required), Hamachi.
+
+#### Option C — Port forwarding (advanced, true public hosting)
+Use this if you want a permanent public server. Skip if Option B works for you.
+
+1. Open your router's admin page (usually `192.168.1.1` or `192.168.0.1`)
+2. Find **Port Forwarding** / **NAT** / **Virtual Server** settings
+3. Create a new rule:
+   - **Service Name:** Skyrim Together
+   - **External Port:** `10578`
+   - **Internal Port:** `10578`
+   - **Protocol:** **Both** (TCP **and** UDP) — if your router only allows one, make **two** rules
+   - **Internal IP:** your PC's local IPv4 (from `ipconfig`)
+4. Add a Windows Firewall inbound rule for **UDP 10578** AND **TCP 10578**
+5. Get your public IP from [icanhazip.com](https://icanhazip.com/)
+6. Friends connect to `<your public IP>:10578`
+
+**Still stuck?** The official wiki has detailed router walkthroughs and a ZeroTier guide:
+- [STR Server Guide — full walkthrough](https://wiki.tiltedphoques.com/tilted-online/guides/server-guide)
+- [STR Windows Server Setup](https://wiki.tiltedphoques.com/tilted-online/guides/server-guide/windows-setup)
+
+### Server settings (optional)
+Server config lives at: `[STR mod folder]\config\STServer.ini`
+
+Most useful keys:
+- `sPassword=` — server password (blank = no password)
+- `sServerName=` — name shown in server list
+- `uMaxPlayerCount=8` — max players
+- `uPort=10578` — change if you want a non-default port
+- `bAnnounceServer=false` — set `true` to show in the public server list (only works if no password)
+
+Full reference: [STR Server Configuration](https://wiki.tiltedphoques.com/tilted-online/guides/server-guide/server-configuration)
+
+> ⚠️ **Stop the server before editing `STServer.ini`** — changes mid-run get overwritten.
 
 ---
 
@@ -317,7 +386,7 @@ Skyrim Together Reborn (STR) is included in this modpack, but it needs one-time 
 
 **Fix:**
 1. Open **Mod Organizer 2**
-2. Select **`SkyrimTogetherServer`** (or the STR entry) from the executable/profile dropdown
+2. Select **`SkyrimTogether`** (or the STR entry) from the executable/profile dropdown
 3. Hold **`SPACEBAR`** while clicking **Run**
 4. When the file browser appears, select:
    `[Your Install]\Stock Game\SkyrimSE.exe`
@@ -487,4 +556,4 @@ This modlist is provided free of charge for personal use. All mods remain the pr
 
 ---
 
-*Last Updated: February 17, 2026 — Version 3.3.1*
+*Last Updated: June 6, 2026 — Version 3.4.0*

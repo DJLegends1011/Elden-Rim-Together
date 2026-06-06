@@ -28,7 +28,13 @@
       "download": "https://authored-files.wabbajack.org/EldenRim Together.wabbajack_03551371-a22b-4fbf-999f-3982dcdd4978",
       "machineURL": "EldenRim",
       "discordURL": "https://discord.gg/YwU4dF2X9V",
-      "websiteURL": ""
+      "websiteURL": "",
+      "nexusCollection": {
+        "collectionId": "458979",
+        "slug": "h2erl1",
+        "domainName": "skyrimspecialedition",
+        "lastRevisionNumber": 1
+      }
     },
     "download_metadata": {
       "Hash": "SFkiavTmvEE=",

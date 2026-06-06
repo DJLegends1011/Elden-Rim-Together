@@ -1,1 +1,1389 @@
+# EldenRimTogether Wabbajack Changelog
+=======================================
 
+**Mod Organizer 2 Version ::** 2.5.2 ML1.5 (Windows), 2.5.2 (Windows)
+**RootBuilder Version ::** 5.0.5.0
+
+**SYSTEM REQUIREMENTS ::** A PC I guess
+
+### Changelog Legend ::
+```
++ = Added Mod
+- = Removed Mod
+E = Enabled Mod
+D = Disabled Mod
+M = Modified Mod (Give summary of changes)
+// = Comment (Yes C comments)
+```
+
+---
+
+# Version 3.4.0
+
+06/04/2026 XX:XX UTC :: Launch - Success | STR Launch - Untested
+// Version 3.4.0 - Major update after 3.5 months - Mass mod updates across all categories
+// NEW SAVE REQUIRED - Combat system overhaul (BFCO, OAR major version bumps)
+// Elden Parry disabled in favor of Parry for All (works with BFCO)
+// SkyrimNet removed (was testing only)
+// SkyUI fixes merged into SkyUI 6.x (Ghost Item Bug Fix, 3D Item Offset Fix no longer needed)
+// Unsorted mods organized into proper categories (Wheeler, dMenu, Input Manager, etc.)
+```
+# 01.1 EARLY LOADERS - CORE
+M Alternate Perspective - Voiced Addon // Updated from 1.12.0.0 to 1.13.0.0
+M Navigator - Navmesh Fixes // Updated from 1.8.0.0 to 1.8.1.0
+M Skyrim Souls RE - Updated // Updated from 2.4.0.0 to 3.1.2.0
+M Unofficial Skyrim Special Edition Patch - USSEP // Updated from 4.3.6.0c to 4.3.8.0a
+
+# 01.2 MODDER RESOURCES - UTILITIES - CORE FIXES
+M Alt-Tab Stuck Key Fix NG // Updated from 1.1.0.0 to 1.3.1.0
+M Andrealphus' Papyrus Functions // Updated from 1.6.1.0 to 1.7.2.0
+M BodySlide and Outfit Studio // Updated from 5.7.1.0 to 5.8.1.0
+M Crash Logger SSE AE VR - PDB support // Updated from 1.20.1.0 to 1.22.0.0
+M Dynamic Dialogue Replacer // Updated from 1.2.0.0 to 1.4.1.0
+M Dynamic String Distributor (DSD) // Updated from 1.3.1.0 to 1.4.3.0
+M Engine Fixes - Main File // Updated from 7.0.19.0 to 7.0.20.0
+M Mfg Fix NG // Updated from 1.0.4.0 to 1.0.9.0
+M Open Animation Replacer // Updated from 2.3.6.0 to 3.1.5.0
+M Open Animation Replacer - Detection Plugin // Updated from 2.1.3.0 to 2.1.4.0
+M Open Animation Replacer - Math Plugin // Updated from 1.0.2.0 to 1.0.4.0
+M Pandora Behaviour Engine Plus // Updated from 4.1.2.0b- to 4.3.1.0b-
+M Papyrus Ini Manipulator // Updated from 1.9.7.0 to 1.9.8.0
+M Race Compatibility SKSE // Updated from 2.4.0.0 to 2.5.5.0
+M SKSE Menu Framework // Updated from 3.7.0.0 to 3.9.0.0
+M Scrab's Papyrus Extender // Updated from 2.1.5.0 to 2.3.0.0
+M SkyPatcher // Updated from 6.3.1.0 to 6.4.1.0
+M Sound Record Distributor // Updated from 1.5.1.0 to 1.5.3.0
+M Spell Perk Item Distributor // Updated from 7.1.3.0 to 7.3.0.0
++E A-Pose Bug Fix - Universal Behavior Runtime // Added version 1.1.0.0-a
++E Auto Skeleton Patch - Universal Behaviour Runtime // Added version 1.0.4.0
++E Media Keys Fix SKSE // Added version 1.0.1.0
++E Native EditorID Fix // Added version 1.2.2.0
+
+# 02.2 HUD
+M STB Active Effects // Updated from 1.2.0.0 to 1.4.0.0
+M STB Widgets // Updated from 1.9.0.0 to 2.2.0.0
+
+# 02.3 UI
+M MCM Helper // Updated from 1.5.0.0 to 1.6.2.0
+M Modern Wait Menu // Updated from f1.00 to 2.0.5.0
+M SkyUI // Updated from 5.2.0.0SE to 6.11.0.0
+M WHEELER - Refined // Updated from 1.2.0.0 to 1.3.3.0
+M dMenu NG // Updated from 1.2.2.0 to 1.3.0.0
++E Prisma UI - Next-Gen Web UI Framework // Added version 1.4.1.0
++E New Skill Menu - NSM // Added version 1.3.2.0
++E Skyrim Souls and Wheeler Slow Time Fix // Added version 1.1.0.0
++E dMenu // Added version 1.2.1.0
++E Wheeler - Quick Action Wheel Of Skyrim // Added version 1.2.0.0
+-D SkyUI - Ghost Item Bug Fix // Removed; merged into SkyUI 6.x
+-D SkyUI 3D Item Offset Fix (Centered Item Card - Script Fix - Improvement) // Removed; merged into SkyUI 6.x
+
+# 02.4 CAMERA
+M SmoothCam // Updated from 1.7.0.0 to 1.7.1.0
+
+# 02.5 MAPS
+M CoMAP // Updated from 4.3.0.0 to 4.4.0.0
+
+# 02.6 CONTROLS
+M Auto Input Switch // Updated from 1.2.3.0 to 1.3.0.0
++E Input Manager // Added version 1.0.4.0
++E Mouse Mode // Added version 1.0.1.0
+
+# 03.1 AUDIO - SOUND
+M Phoenix Compendium // Updated from 2.5.4.0 to 2.5.5.0
+
+# 04.1 BASE MESHES & TEXTURES - EARLY LOADERS
+M Assorted Mesh Fixes // Updated from 0.139.1.0 to 0.139.2.0
+M Particle Patch for ENB // Updated from 1.4.0.0 to 1.4.1.0
+
+# 04.8 BASE LOD
+M DynDOLOD Resources SE // Updated from Alpha-58 to Alpha-59
+
+# 05.01 LANDSCAPE
+M Vanilla Landscapes Corrections // Updated from 1.2.0.0 to 1.3.1.0
+
+# 05.04.2 GRASS
+M Skyking Thickets and Scrubs // Updated from 1.2.0.0 to 1.3.0.0
+
+# 05.10 OTHER VISUAL EFFECTS
+M Simplicity of Splatter - High-Res Blood Textures // Updated from 0.1.0.0 to 0.1.1.0
+
+# 08.1 LIGHTING
+M Lux // Updated from 7.0.0.0 to 7.1.0.0
+
+# 09.5 GAMEPLAY - NEW MECHANICS
+M Acheron - Death Alternative // Updated from 1.7.0.0 to 1.9.3.0
+
+# 11.1 RACEMENU
+M RaceMenu // Updated from 0.4.19.16 to 0.4.20.0
+M ShowRaceMenu - NG // Updated from 1.0.1.0 to 1.0.4.0
+
+# 11.2 SKELETON - PHYSICS
+M Faster HDT-SMP // Updated from 2.5.1.0 to 3.1.1.0
+
+# 11.3.3 HAIR - BEARDS - EXTRA
+M Chooey's KS Hairdos and Vanilla Hair Retexture // Updated from 2.1.0.0 to 2.2.0.0
+M Chooey's Vanilla Hair Retexture // Updated from 1.0.0.0 to 2.2.0.0
+M KS Hairdos - HDT SMP (Physics) // Updated from 1.4.4.0 to 1.5.0.0
+
+# 11.5 NPC - AI
+M AI Overhaul SSE // Updated from 1.8.7.0 to 1.9.0.0
+
+# 11.6 NPCs - INTERACTIONS
+M Serana Dialogue Add-On // Updated from 4.3.0.0 to 4.3.2.0
+
+# 11.7 FOLLOWERS
+M Ashe - Crystal Heart // Updated from 1.3.3.0 to 1.3.6.0a
+M Serana Dialogue Add-On x Ashe - Crystal Heart - Full Banter Patch (Asherana) // Updated from 1.0.6.0 to 1.0.7.0
+
+# 12.1 VAMPIRES - WEREWOLVES
++E Nightmare Night - Werebeasts Unleashed - Werewolf Overhaul // Added version 2.2.1.0
+
+# 13.1 WEAPONS - ARMOUR REPLACERS
+M Better-Shaped Bows of the Heavens SE // Updated from 2.9.3.0 to 2.9.4.0
+M BHUNP Creation Club Outfits // Updated from 2.3.0.0 to 2.3.0.0a
+M BHUNP Skyrim Vanilla Outfits // Updated from 2.3.0.0 to 2.3.0.0a
+M Heavy Armory - New Weapons // Updated from 6.1.7.0 to 6.2.5.0
+
+# 14.1 COMBAT
+M BFCO - Attack Behavior Framework // Updated from 3.3.13.0 to 3.100.3.0
+M Parry for all // Updated from 1.0.4.0 to 1.2.1.0
+M Project Gap Close - NPC Sprint Attacks and Dynamic Combat Pathing Revolution // Updated from 1.6.0.0 to 1.8.0.0
+M Simple Timed Block // Updated from 2.1.0.0 to 2.2.1.0
+M SkyValor // Updated from 3.6.0.0 to 3.7.0.0
+M Unblockable Hits // Updated from 1.0.1.0 to 1.3.0.0
+D Elden Parry // Disabled in favor of Parry for All
+// NOTE: Parry for All and Unblockable Hits need testing with Skyrim Together Reborn
+
+# 14.4 IDLES - OTHER ANIMATIONS
+M Dynamic Female Modesty KID // Updated from 1.0.0.0 to 5.0.0.0
+M Dynamic Feminine Female Modesty Animations - Modesty Vanilla DLC KID // Updated from 4.0.0.0 to 4.21.0.0
+M Gesture Animation Remix (OAR) // Updated from 2.1.1.0 to 2.3.0.0
+M NPC Animation Remix (OAR) // Updated from 2.0.0.0 to 2.2.0.0
+
+# 15.1 SPID DISTRIBUTION
+M RMB SPIDified - Core // Updated from 6.2.1.0 to 6.3.0.0
+
+# 15.2 MISCELLANEOUS PATCHES - BUG FIXES - SCRIPT FIXES
+M SDA Patch Hub SE // Updated from 2.9.6.0 to 2.9.8.0
+M Stuck on Sleeper Fix - Exit Noble Bed Double 02 // Updated from 0.1.0.0 to 0.2.0.0
+
+# 15.4 LATE LOADERS
+M Oathvein UI // Updated from 1.2.1.0 to 1.2.2.0
+M Oathvein UI - Racemenu DIP // Updated from 1.2.0.0 to 1.2.2.0
+
+# 15.6 DynDOLOD
+M Lod Model Library for DynDOLOD // Updated from 1.6.0.0 to 1.7.0.0
+
+# 16.4 SKYRIM TOGETHER REBORN
+-D Skyrim Together Build (v1.8.0) // Removed old version; current STR already present
+```
+
+---
+
+04/27/2026 03:21 UTC :: Launch - Unknown | STR Launch - Unknown
+// Scripted update scan - 1 mod update, 11 new active mods added, 2 mods removed
+```
+# 01.2 MODDER RESOURCES - UTILITIES - CORE FIXES
++E Media Keys Fix SKSE // Added version 1.0.1.0
++E Native EditorID Fix // Added version 1.2.2.0
+
+# 02.3 UI
+M SkyUI // Updated from 5.2.0.0SE to 6.7.0.0
++E Prisma UI - Next-Gen Web UI Framework // Added version 1.4.1.0
+-D SkyUI - Ghost Item Bug Fix // Removed; was version 1.0.0.0
+-D SkyUI 3D Item Offset Fix (Centered Item Card - Script Fix - Improvement) // Removed; was version 1.1.0.0
+
+# 11.1 RACEMENU
++E ShowRaceMenu - NG // Added version 1.0.1.0
+
+# 11.5 NPC - AI
++E SkyrimNet // Added version d2026.4.2.0
+
+# 12.1 VAMPIRES - WEREWOLVES
++E Nightmare Night - Werebeasts Unleashed - Werewolf Overhaul // Added version 2.2.1.0
+
+# 14.1 COMBAT
++E Parry for all // Added version 1.0.4.0
++E Unblockable Hits // Added version 1.0.1.0
+
+# 99. ___________________________________ NEW & UNSORTED ______________________________________
++E dMenu // Added version 1.2.1.0
++E Wheeler - Quick Action Wheel Of Skyrim // Added version 1.2.0.0
++E WHEELER - Refined // Added version 1.2.0.0
+```
+
+---
+
+02/17/2026 XX:XX UTC :: Launch - Unknown | STR Launch - Unknown
+// HOTFIX - Dagoth Ur follower added, Nemesis renamed to Pandora, Bodyslide rebuilt
+```
+# 11.7 FOLLOWERS
++E (Lore Accurate) Dagoth Ur Follower // Added version 1.17.0.0
+
+# 17. TOOL OUTPUTS
+M 17.3 Bodyslide Output // Updated from 3.2.6.0 to 3.3.0.0
+M 17.4 Nemesis Output → 17.4 Pandora Output // Renamed for consistency, version 3.3.0.0
+```
+
+---
+
+02/17/2026 XX:XX UTC :: Launch - Unknown | STR Launch - Unknown
+// Big update - 2 mod updates, 7 new mods added, 2 mods removed
+```
+# 01.1 EARLY LOADERS - CORE
+M Skyrim Extended Cut Saints and Seducers - Quest Patch // Updated from 2.0.0.0 to 3.0.0.0
+
+# 01.2 MODDER RESOURCES - UTILITIES - CORE FIXES
++E Alt-Tab Stuck Key Fix NG // Added version 1.1.0.0
++E Auto Saver // Added version 0.1.6.0 - Configured to save AFTER combat ends, not at combat start
++E ENB Input Disabler // Added version 1.1.1.0
++E Modlist Update Checker // Added version 1.0.4 - Notifies players in-game when modlist updates are available
+-D Elemental Reactions // Removed
+-D Elemental Reactions - CTD Fix // Removed
+
+# 11.1 RACEMENU
+M RaceMenu OverlayFix and Various Mod Fixes // Updated from 1.52.0.0rc-prerelease to 1.53.0.0
+
+# 12.4 CREATURES - NEW
++E Chickens and Chicks- Mihail Monsters and Animals (SE-AE version) // Added version 1.0.0.0
++E Roosters- Mihail Monsters and Animals (SE-AE version) // Added version 1.0.0.0
++E THICCEN - Fat Chickens // Added version PLUMPY - Added per community request
+
+# 16.4 SKYRIM TOGETHER REBORN
++E Skyrim Together Tweaks // Added version 1.0.0.0
+```
+
+---
+
+02/12/2026 XX:XX UTC :: Launch - Unknown
+// Final pre-Wabbajack upload update - 4 mod updates
+```
+# 01.2 MODDER RESOURCES - UTILITIES - CORE FIXES
+M Crash Logger SSE AE VR - PDB support // Updated from 1.18.0.0 to 1.20.1.0
+
+# 04.1 BASE MESHES & TEXTURES - EARLY LOADERS
+M Assorted Mesh Fixes // Updated from 0.139.0.0 to 0.139.1.0
+
+# 13.1 WEAPONS - ARMOUR REPLACERS
+M Better-Shaped Bows of the Heavens SE // Updated from 2.9.0.0 to 2.9.3.0
+
+# 15.2 MISCELLANEOUS PATCHES - BUG FIXES - SCRIPT FIXES
+M The Dragonborn's Bestiary - 4thUnknown Addons // Updated from 2.0.0.0 to 2.5.0.0
+
+```
+
+---
+
+02/04/2026 01:46 UTC :: SKSE Launch - Success | STR Launch - Untested
+// Pre-release update - Core fixes, new mods, follower updates
+// SKSE Tested: Alternate Start, Riverwood, bandit combat, Bleak Falls Barrow entry + Dragon Claw - No CTDs
+```
+# 01.2 MODDER RESOURCES - UTILITIES - CORE FIXES
+M Comprehensive Attack Rate Patch - SKSE // Updated from 1.1.2.14 to 1.1.2.15
+M Crash Logger SSE AE VR - PDB support // Updated from 1.16.0.0 to 1.18.0.0
+
+# 04.1 BASE MESHES & TEXTURES - EARLY LOADERS
+M Assorted Mesh Fixes // Updated from 0.138.0.0 to 0.139.0.0
+
+# 05.10 OTHER VISUAL EFFECTS
++E No Load Door NPC Fade // Added version 0.2.0.0
+
+# 09.5 GAMEPLAY - NEW MECHANICS
+M Stress and Fear - A Dynamic Sanity System // Updated from f2.06 to f2.07
+
+# 11.1 RACEMENU
++E RaceMenu OverlayFix and Various Mod Fixes // Added version 1.52.0.0rc-prerelease-
+
+# 11.7 FOLLOWERS
+M Ashe - Crystal Heart // Updated from 1.3.2.0 to 1.3.3.0
+M Serana Dialogue Add-On x Ashe - Crystal Heart - Full Banter Patch (Asherana) // Updated from 1.0.5.0 to 1.0.6.0
+
+# 12.3 CREATURES - VANILLA
++E Frost Atronach SE // Added version 1.0.0.0
+
+# 01.1 EARLY LOADERS - CORE
+M Skyrim Extended Cut - Saints and Seducers // Updated from 1.1.0 to 1.1.1.0
+
+# 13.1 WEAPONS - ARMOUR REPLACERS
+M BHUNP Creation Club Outfits // Updated from 2.2.0.0 to 2.3.0.0
+M BHUNP Skyrim Vanilla Outfits // Updated from 2.2.1.0 to 2.3.0.0
+
+# 15.4 LATE LOADERS
+M Oathvein UI - Racemenu DIP // Updated from 1.1.2.0 to 1.2.0.0
+M Oathvein UI // Updated from 1.1.4.0 to 1.2.1.0
+
+```
+
+---
+
+01/23/2026 XX:XX UTC :: Launch - Needs Testing
+// Version 3.3.0 - Major modlist update (2 months of mod updates)
+// Changed Skyrim Together Reborn from GitHub feature integration to Nexus build v1.8
+```
+# 01.1 EARLY LOADERS - CORE
+M Skyrim Extended Cut - Saints and Seducers // Updated from 1.0.0.6 to 1.1.0
+M Alternate Perspective - Alternate Start // Updated from 4.0.3 to 4.1.0
+M Alternate Perspective - Voiced Addon // Updated from 1.11 to 1.12
+
+# 01.2 MODDER RESOURCES - UTILITIES - CORE FIXES
+M powerofthree's Papyrus Extender // Updated from 6.1.1.0 to 6.3.0.0
+M Favorite Misc Items // Updated from 3.7.1.0 to 4.0.0.0
+M SkyPatcher // Updated from 6.2.0.0 to 6.3.1.0
+M Dynamic String Distributor (DSD) // Updated from 1.2.5.0 to 1.3.1.0
+M Stagger Effect Fix // Updated from 1.0.2.0 to 1.0.3.0
+M Pandora Behaviour Engine Plus // Updated from 4.0.4.0b to 4.1.2.0b
+M Experience // Updated from 3.7.2.0 to 3.7.3.0
+M NPC Stuck in Bleedout fix // Updated from 0.1.3.0 to 0.2.0.0
+M Perk Entry Point Extender // Updated from 2.2.3.4 to 2.2.4.6
+M Actor Value Generator // Updated from 2.2.2.10 to 2.2.9.4
+M SKSE Menu Framework // Updated from 2.0.0.0 to 3.7.0.0
+M Lexicon SKSE // Updated from 0.1.4.2 to 0.1.4.3
++E Rim Lighting Removed // Added - Removes rim lighting permanently
+
+# 02.3 UI
+M Contextual Crosshair // Updated (reinstalled latest files, version unchanged 1.3.2.0)
+
+# 02.4 CAMERA
+M Widescreen Scale Removed for 1-6-1130 and higher // Updated (reinstalled latest files, version unchanged 1.0.4.0)
+M ImGui Icons // Updated (reinstalled latest files, version unchanged 1.2.0.0)
+
+# 04.1 BASE MESHES & TEXTURES - EARLY LOADERS
+M Particle Patch for ENB // Updated from 1.3.9.0 to 1.4.0
+M Assorted Mesh Fixes // Updated from 0.131 to 0.138
+
+# 04.8 BASE LOD
+M DynDOLOD Resources SE // Updated from A 57 to A 58
+
+# 05.04.1 TREES
+M Skyland Happy Little Trees Bark // Updated from 1.2.0 to 1.3.0
+
+# 05.10 OTHER VISUAL EFFECTS
+M KittyVFX - ENBHands // Updated from 2.0 to 2.1
++E Simplicity of Splatter - High-Res Blood Textures // Added
++E Drain Magic VFX Edit // Added
+
+# 08.1 LIGHTING
+M Lux Orbis (patch hub) // Updated from 4.6 to 4.7
+M Lux (patch hub) // Updated from 7.0 to 7.1
+
+# 09.4 GAMEPLAY - BALANCE
+M Open World Loot - SkyPatcher Edition // Updated from 1.0 to 1.1
+
+# 09.5 GAMEPLAY - NEW MECHANICS
+M Roleplaying in Skyrim - Evolving Economy // Updated from 2.1.0.0 to 3.0.1.0
++E Elemental Reaction - CTD Fix // Added - Fixes CTD when AFK in worldspaces with STR
+
+# 09.6 GAMEPLAY - IMMERSION
+M Stress and Fear - A Dynamic Sanity System // Updated from f2.05 to f2.06
+M Sandbox When Idle // Updated from 1.3.1.0 to 1.4.0.0
+
+# 11.4 NPC - LOOKS
+M Chooey's Choice Requirements // Updated from 6.6.6.0pre-1.1.2 to 6.6.6.0pre-1.1.3
+
+# 11.6 NPCs - INTERACTIONS
+M Serana Dialogue Add-On // Updated from 4.2.1.0 to 4.3.0.0
+
+# 11.7 FOLLOWERS
+M Ashe - Crystal Heart // Updated from 1.1.4.0 to 1.3.2.0
++E Ashe Bestiary Patch // Added version 1.0.0.0BestiaryPatch
++E Serana Dialogue Add-On x Ashe - Crystal Heart - Full Banter Patch (Asherana) // Added version 1.0.5.0 (replaces Ashe SDA Patch)
+
+# 13.1 WEAPONS - ARMOUR REPLACERS
+M BHUNP Creation Club Outfits // Updated from 2.1.0.0 to 2.2.0.0
+M BHUNP Skyrim Vanilla Outfits // Updated from 2.1.0.0 to 2.2.1.0
+
+# 14.1 COMBAT
+M Precision Creatures // Updated from 2.41.0.0 to 2.42.0.0
+M Simple Timed Block // Updated from 1.3.0.0 to 2.1.0.0
+
+# 14.4 IDLES - OTHER ANIMATIONS
+M Dynamic Feminine Female Modesty Animations - Nexus modesty KID // Updated from 97.0.0.0 to 100.0.0.0
+
+# 15.1 SPID DISTRIBUTION
+M Sonders Keyword Distribution Resources // Updated from 2.0.0.0 to 2.1.0.0
+
+# 15.2 MISCELLANEOUS PATCHES - BUG FIXES - SCRIPT FIXES
+M WIDeadBodyCleanupScript Crash Fix // Updated from 0.4.0.0 to 0.5.2.0
+
+# 15.3 PERFORMANCE
+M Lightened Skyrim - Base Object Swapper edition // Updated from f1.09 to 1.10.0.0
+
+# 15.4 LATE LOADERS
+M Oathvein UI // Updated from 1.1.2.0 to 1.1.4.0
+
+# 15.6 DynDOLOD
+M DynDOLOD TexGen Fixes // Updated from 2.3.0.0 to 2.4.0.0
+
+```
+
+---
+
+---
+
+# Version 3.3.1
+
+04/27/2026 03:21 UTC :: Launch - Unknown | STR Launch - Unknown
+// Scripted update scan - 1 mod update, 11 new active mods added, 2 mods removed
+```
+# 01.2 MODDER RESOURCES - UTILITIES - CORE FIXES
++E Media Keys Fix SKSE // Added version 1.0.1.0
++E Native EditorID Fix // Added version 1.2.2.0
+
+# 02.3 UI
+M SkyUI // Updated from 5.2.0.0SE to 6.7.0.0
++E Prisma UI - Next-Gen Web UI Framework // Added version 1.4.1.0
+-D SkyUI - Ghost Item Bug Fix // Removed; was version 1.0.0.0
+-D SkyUI 3D Item Offset Fix (Centered Item Card - Script Fix - Improvement) // Removed; was version 1.1.0.0
+
+# 11.1 RACEMENU
++E ShowRaceMenu - NG // Added version 1.0.1.0
+
+# 11.5 NPC - AI
++E SkyrimNet // Added version d2026.4.2.0
+
+# 12.1 VAMPIRES - WEREWOLVES
++E Nightmare Night - Werebeasts Unleashed - Werewolf Overhaul // Added version 2.2.1.0
+
+# 14.1 COMBAT
++E Parry for all // Added version 1.0.4.0
++E Unblockable Hits // Added version 1.0.1.0
+
+# 99. ___________________________________ NEW & UNSORTED ______________________________________
++E dMenu // Added version 1.2.1.0
++E Wheeler - Quick Action Wheel Of Skyrim // Added version 1.2.0.0
++E WHEELER - Refined // Added version 1.2.0.0
+```
+
+---
+
+02/17/2026 XX:XX UTC :: Launch - Unknown | STR Launch - Unknown
+// HOTFIX - Dagoth Ur follower added, Nemesis renamed to Pandora, Bodyslide rebuilt
+```
+# 11.7 FOLLOWERS
++E (Lore Accurate) Dagoth Ur Follower // Added version 1.17.0.0
+
+# 17. TOOL OUTPUTS
+M 17.3 Bodyslide Output // Updated from 3.2.6.0 to 3.3.0.0
+M 17.4 Nemesis Output → 17.4 Pandora Output // Renamed for consistency, version 3.3.0.0
+```
+
+---
+
+02/17/2026 XX:XX UTC :: Launch - Unknown | STR Launch - Unknown
+// Big update - 2 mod updates, 7 new mods added, 2 mods removed
+```
+# 01.1 EARLY LOADERS - CORE
+M Skyrim Extended Cut Saints and Seducers - Quest Patch // Updated from 2.0.0.0 to 3.0.0.0
+
+# 01.2 MODDER RESOURCES - UTILITIES - CORE FIXES
++E Alt-Tab Stuck Key Fix NG // Added version 1.1.0.0
++E Auto Saver // Added version 0.1.6.0 - Configured to save AFTER combat ends, not at combat start
++E ENB Input Disabler // Added version 1.1.1.0
++E Modlist Update Checker // Added version 1.0.4 - Notifies players in-game when modlist updates are available
+-D Elemental Reactions // Removed
+-D Elemental Reactions - CTD Fix // Removed
+
+# 11.1 RACEMENU
+M RaceMenu OverlayFix and Various Mod Fixes // Updated from 1.52.0.0rc-prerelease to 1.53.0.0
+
+# 12.4 CREATURES - NEW
++E Chickens and Chicks- Mihail Monsters and Animals (SE-AE version) // Added version 1.0.0.0
++E Roosters- Mihail Monsters and Animals (SE-AE version) // Added version 1.0.0.0
++E THICCEN - Fat Chickens // Added version PLUMPY - Added per community request
+
+# 16.4 SKYRIM TOGETHER REBORN
++E Skyrim Together Tweaks // Added version 1.0.0.0
+```
+
+---
+
+02/12/2026 XX:XX UTC :: Launch - Unknown
+// Final pre-Wabbajack upload update - 4 mod updates
+```
+# 01.2 MODDER RESOURCES - UTILITIES - CORE FIXES
+M Crash Logger SSE AE VR - PDB support // Updated from 1.18.0.0 to 1.20.1.0
+
+# 04.1 BASE MESHES & TEXTURES - EARLY LOADERS
+M Assorted Mesh Fixes // Updated from 0.139.0.0 to 0.139.1.0
+
+# 13.1 WEAPONS - ARMOUR REPLACERS
+M Better-Shaped Bows of the Heavens SE // Updated from 2.9.0.0 to 2.9.3.0
+
+# 15.2 MISCELLANEOUS PATCHES - BUG FIXES - SCRIPT FIXES
+M The Dragonborn's Bestiary - 4thUnknown Addons // Updated from 2.0.0.0 to 2.5.0.0
+
+```
+
+---
+
+02/04/2026 01:46 UTC :: SKSE Launch - Success | STR Launch - Untested
+// Pre-release update - Core fixes, new mods, follower updates
+// SKSE Tested: Alternate Start, Riverwood, bandit combat, Bleak Falls Barrow entry + Dragon Claw - No CTDs
+```
+# 01.2 MODDER RESOURCES - UTILITIES - CORE FIXES
+M Comprehensive Attack Rate Patch - SKSE // Updated from 1.1.2.14 to 1.1.2.15
+M Crash Logger SSE AE VR - PDB support // Updated from 1.16.0.0 to 1.18.0.0
+
+# 04.1 BASE MESHES & TEXTURES - EARLY LOADERS
+M Assorted Mesh Fixes // Updated from 0.138.0.0 to 0.139.0.0
+
+# 05.10 OTHER VISUAL EFFECTS
++E No Load Door NPC Fade // Added version 0.2.0.0
+
+# 09.5 GAMEPLAY - NEW MECHANICS
+M Stress and Fear - A Dynamic Sanity System // Updated from f2.06 to f2.07
+
+# 11.1 RACEMENU
++E RaceMenu OverlayFix and Various Mod Fixes // Added version 1.52.0.0rc-prerelease-
+
+# 11.7 FOLLOWERS
+M Ashe - Crystal Heart // Updated from 1.3.2.0 to 1.3.3.0
+M Serana Dialogue Add-On x Ashe - Crystal Heart - Full Banter Patch (Asherana) // Updated from 1.0.5.0 to 1.0.6.0
+
+# 12.3 CREATURES - VANILLA
++E Frost Atronach SE // Added version 1.0.0.0
+
+# 01.1 EARLY LOADERS - CORE
+M Skyrim Extended Cut - Saints and Seducers // Updated from 1.1.0 to 1.1.1.0
+
+# 13.1 WEAPONS - ARMOUR REPLACERS
+M BHUNP Creation Club Outfits // Updated from 2.2.0.0 to 2.3.0.0
+M BHUNP Skyrim Vanilla Outfits // Updated from 2.2.1.0 to 2.3.0.0
+
+# 15.4 LATE LOADERS
+M Oathvein UI - Racemenu DIP // Updated from 1.1.2.0 to 1.2.0.0
+M Oathvein UI // Updated from 1.1.4.0 to 1.2.1.0
+
+```
+
+---
+
+01/23/2026 XX:XX UTC :: Launch - Needs Testing
+// Version 3.3.0 - Major modlist update (2 months of mod updates)
+// Changed Skyrim Together Reborn from GitHub feature integration to Nexus build v1.8
+```
+# 01.1 EARLY LOADERS - CORE
+M Skyrim Extended Cut - Saints and Seducers // Updated from 1.0.0.6 to 1.1.0
+M Alternate Perspective - Alternate Start // Updated from 4.0.3 to 4.1.0
+M Alternate Perspective - Voiced Addon // Updated from 1.11 to 1.12
+
+# 01.2 MODDER RESOURCES - UTILITIES - CORE FIXES
+M powerofthree's Papyrus Extender // Updated from 6.1.1.0 to 6.3.0.0
+M Favorite Misc Items // Updated from 3.7.1.0 to 4.0.0.0
+M SkyPatcher // Updated from 6.2.0.0 to 6.3.1.0
+M Dynamic String Distributor (DSD) // Updated from 1.2.5.0 to 1.3.1.0
+M Stagger Effect Fix // Updated from 1.0.2.0 to 1.0.3.0
+M Pandora Behaviour Engine Plus // Updated from 4.0.4.0b to 4.1.2.0b
+M Experience // Updated from 3.7.2.0 to 3.7.3.0
+M NPC Stuck in Bleedout fix // Updated from 0.1.3.0 to 0.2.0.0
+M Perk Entry Point Extender // Updated from 2.2.3.4 to 2.2.4.6
+M Actor Value Generator // Updated from 2.2.2.10 to 2.2.9.4
+M SKSE Menu Framework // Updated from 2.0.0.0 to 3.7.0.0
+M Lexicon SKSE // Updated from 0.1.4.2 to 0.1.4.3
++E Rim Lighting Removed // Added - Removes rim lighting permanently
+
+# 02.3 UI
+M Contextual Crosshair // Updated (reinstalled latest files, version unchanged 1.3.2.0)
+
+# 02.4 CAMERA
+M Widescreen Scale Removed for 1-6-1130 and higher // Updated (reinstalled latest files, version unchanged 1.0.4.0)
+M ImGui Icons // Updated (reinstalled latest files, version unchanged 1.2.0.0)
+
+# 04.1 BASE MESHES & TEXTURES - EARLY LOADERS
+M Particle Patch for ENB // Updated from 1.3.9.0 to 1.4.0
+M Assorted Mesh Fixes // Updated from 0.131 to 0.138
+
+# 04.8 BASE LOD
+M DynDOLOD Resources SE // Updated from A 57 to A 58
+
+# 05.04.1 TREES
+M Skyland Happy Little Trees Bark // Updated from 1.2.0 to 1.3.0
+
+# 05.10 OTHER VISUAL EFFECTS
+M KittyVFX - ENBHands // Updated from 2.0 to 2.1
++E Simplicity of Splatter - High-Res Blood Textures // Added
++E Drain Magic VFX Edit // Added
+
+# 08.1 LIGHTING
+M Lux Orbis (patch hub) // Updated from 4.6 to 4.7
+M Lux (patch hub) // Updated from 7.0 to 7.1
+
+# 09.4 GAMEPLAY - BALANCE
+M Open World Loot - SkyPatcher Edition // Updated from 1.0 to 1.1
+
+# 09.5 GAMEPLAY - NEW MECHANICS
+M Roleplaying in Skyrim - Evolving Economy // Updated from 2.1.0.0 to 3.0.1.0
++E Elemental Reaction - CTD Fix // Added - Fixes CTD when AFK in worldspaces with STR
+
+# 09.6 GAMEPLAY - IMMERSION
+M Stress and Fear - A Dynamic Sanity System // Updated from f2.05 to f2.06
+M Sandbox When Idle // Updated from 1.3.1.0 to 1.4.0.0
+
+# 11.4 NPC - LOOKS
+M Chooey's Choice Requirements // Updated from 6.6.6.0pre-1.1.2 to 6.6.6.0pre-1.1.3
+
+# 11.6 NPCs - INTERACTIONS
+M Serana Dialogue Add-On // Updated from 4.2.1.0 to 4.3.0.0
+
+# 11.7 FOLLOWERS
+M Ashe - Crystal Heart // Updated from 1.1.4.0 to 1.3.2.0
++E Ashe Bestiary Patch // Added version 1.0.0.0BestiaryPatch
++E Serana Dialogue Add-On x Ashe - Crystal Heart - Full Banter Patch (Asherana) // Added version 1.0.5.0 (replaces Ashe SDA Patch)
+
+# 13.1 WEAPONS - ARMOUR REPLACERS
+M BHUNP Creation Club Outfits // Updated from 2.1.0.0 to 2.2.0.0
+M BHUNP Skyrim Vanilla Outfits // Updated from 2.1.0.0 to 2.2.1.0
+
+# 14.1 COMBAT
+M Precision Creatures // Updated from 2.41.0.0 to 2.42.0.0
+M Simple Timed Block // Updated from 1.3.0.0 to 2.1.0.0
+
+# 14.4 IDLES - OTHER ANIMATIONS
+M Dynamic Feminine Female Modesty Animations - Nexus modesty KID // Updated from 97.0.0.0 to 100.0.0.0
+
+# 15.1 SPID DISTRIBUTION
+M Sonders Keyword Distribution Resources // Updated from 2.0.0.0 to 2.1.0.0
+
+# 15.2 MISCELLANEOUS PATCHES - BUG FIXES - SCRIPT FIXES
+M WIDeadBodyCleanupScript Crash Fix // Updated from 0.4.0.0 to 0.5.2.0
+
+# 15.3 PERFORMANCE
+M Lightened Skyrim - Base Object Swapper edition // Updated from f1.09 to 1.10.0.0
+
+# 15.4 LATE LOADERS
+M Oathvein UI // Updated from 1.1.2.0 to 1.1.4.0
+
+# 15.6 DynDOLOD
+M DynDOLOD TexGen Fixes // Updated from 2.3.0.0 to 2.4.0.0
+
+```
+
+---
+
+---
+
+# Version 3.2.9
+
+11/10/2025 04:15 UTC :: Launch - Success
+// Version 3.2.9 - Multiple mod updates and additions
+```
+# 01.1 EARLY LOADERS - CORE
++E Skyrim Souls RE - Updated - (Fixed) // Added
+
+# 01.2 MODDER RESOURCES - UTILITIES - CORE FIXES
++E Dynamic Interface Patcher - DIP // Added
++E Misc Utility Plugins - Automatic Patcher // Enabled and moved from category 99
+M Navigator - Navmesh Fixes // Updated from 1.6.3 to 1.8.0
+M Papyrus Tweaks NG // Updated from 4.1 to 4.1.1
+M SkyPatcher // Updated from 6.0 to 6.2.0
+M Race Compatibility SKSE // Updated from 2.3.2 to 2.4.0
+M Actor Value Generator // Updated from 2.2.2.5 to 2.2.2.10
+M Lexicon SKSE // Updated from 0.1.1.11 to 0.1.4.2
+
+# 02.1 CONSOLE
+M ConsolePlusPlus // Updated from 1.4.1 to 1.5
+
+# 02.3 UI
++E Modern Wait Menu // Added and moved from category 99
+
+# 04.1 BASE MESHES & TEXTURES - EARLY LOADERS
+M Assorted Mesh Fixes // Updated from 0.192.1 to 0.131.0
+
+# 09.5 GAMEPLAY - SURVIVAL - IMMERSION
+M Rogues 'n Raiders // Updated from 4.2.2 to 4.2.3.2
+M Stress and Fear - A Dynamic Sanity System // Updated from 2.04 to 2.05
+M Stressful Darkness // Updated from 1.2.1 to 2.0.1
+M Enhanced Invisibility // Updated from 1.3 to 1.4.1
+
+# 12.1 BODY - SKIN - FACE
+M OBody Next Generation // Updated from 4.3.7 to 4.4.3
+
+# 13.2 WEAPONS - NEW
+M Heavy Armory - New Weapons // Updated from 6.1.6 to 6.1.7
+
+# 14.4 IDLES - OTHER ANIMATIONS
+M Dynamic Female Rail Leaning // Updated from 1.1 to 1.2
+
+# 15.4 LATE LOADERS
++E Oathvein UI - Racemenu DIP // Enabled and moved from category 99, updated from 1.0.1 to 1.1.2
+M Oathvein UI // Updated from 1.0.2 to 1.1.2
+M Race Compatibility SKSE - Patch Hub // Updated from 2.1.5 to 2.1.6
+```
+
+---
+
+11/10/2025 03:28 UTC :: Launch - Success
+// Version 3.2.8 - Full modlist release
+```
+# 00. ROOT FOLDER
+-D Creation Series //
+
+# SKYRIM DLCs & CC
++E Cleaned Vanilla ESMs //
++E CC Addon //
+
+# 01.1 EARLY LOADERS - CORE
++E Cleaned Skyrim SE Textures //
++E Cleaned Skyrim Special Edition Textures - Fixes //
++E Skyrim Script Extender (SKSE64) //
++E SKSE64 ini pre-download for lazy users //
++E ENB //
++E Rudy ENB SE for NAT 3 //
+-D Rudy ENB SE for Parallax //
+
+# 01.2 MODDER RESOURCES - UTILITIES - CORE FIXES
++E Unofficial High Definition Audio Project //
++E Unofficial Skyrim Special Edition Patch - USSEP //
++E Unofficial Skyrim Modder's Patch - USMP SE //
++E Skyrim Extended Cut - Saints and Seducers //
++E Skyrim Extended Cut Saints and Seducers - Quest Patch //
++E Navigator - Navmesh Fixes //
+-D Survival Mode Improved - SKSE //
++E Survival Control Panel //
++E Survival Mode Prompt Removed //
++E Payload Interpreter //
++E Animation Motion Revolution //
++E Animation Motion Fix //
++E Precision //
++E Dynamic Collision Adjustment //
++E Dynamic Animation Casting - NG //
+-D Realm of Lorkhan - Freeform Alternate Start //
+-D Realm of Lorkhan - Enhanced //
+-D Realm of Lorkhan - Unbound Quest Fix //
++E Alternate Perspective - Alternate Start //
++E Alternate Perspective - Voiced Addon //
++E Alternate Perspective Reborn //
++E New Beginnings - Alternate Perspective Extension //
++E I Used to Be a Dungeon Boss like You - An Alternate Perspective or Alternate Start Addon //
+-D Realm of Lorkhan - Bleak Falls Barrow Dragonstone Skip //
+-D Realm of Lorkhan - I Used To Be A Dungeon Boss Like You Compatibility Patch //
++E Regional Save Names //
++E Address Library for SKSE Plugins //
++E Engine Fixes - Main File //
++E Engine Fixes - SKSE64 Preloader //
++E Animation Limit Crash Fix SSE //
++E Actor Limit Fix //
++E Barter Limit Fix //
++E Bug Fixes SSE //
++E Equip Enchantment Fix //
++E Fix Note icon for SkyUI (SKSE64 plugin) //
++E I'm walkin' here NG //
++E Keyword Item Distributor //
++E Mum's the Word NG //
++E NPC AI Process Position Fix - NG //
++E powerofthree's Papyrus Extender //
++E Scrab's Papyrus Extender //
++E Andrealphus' Papyrus Functions //
++E PapyrusUtil SE - Modders Scripting Utility Functions //
++E Papyrus Ini Manipulator //
++E Papyrus Tweaks NG //
++E powerofthree's Tweaks //
++E Recursion Monitor //
++E Scaleform Translation Plus Plus NG //
++E Scrambled Bugs //
++E Scrambled Bugs - Script Effect Archetype Crash Fix //
++E Scrambled Bugs - Vendor Respawn Fix //
++E Skyrim Priority SE AE - CPU Performance FPS Optimizer //
++E SSE Display Tweaks //
++E DisplayTweaks settings for Frame Generation (CS or ENB) //
++E Base Object Swapper //
++E AnimObject Swapper //
++E Behavior Data Injector //
++E Behavior Data Injector Universal Support //
++E Better Combat Escape - SSE //
++E Better Combat Escape - NG //
++E Crash Logger SSE AE VR - PDB support //
++E Don't send me there again (dosemetha) //
++E FormList Manipulator - FLM //
++E Favorite Misc Items //
++E MergeMapper //
++E Object Categorization Framework //
++E Spell Perk Item Distributor //
++E Container Item Distributor //
++E SkyPatcher //
++E SkyPatcher Keyword Framework //
++E Music Type Distributor //
++E Dynamic String Distributor (DSD) //
++E Sound Record Distributor //
++E Stay At The System Page NG //
++E Stagger Effect Fix //
++E Project New Reign - Nemesis Unlimited Behavior Engine //
++E Pandora Behaviour Engine Plus //
++E Open Animation Replacer //
++E Open Animation Replacer - IED Conditions //
++E Open Animation Replacer - Detection Plugin //
++E Open Animation Replacer - Math Plugin //
++E Animation Queue Fix //
++E Paired Animation Improvements //
++E Custom Skills Framework //
++E Custom Skills Menu - A Custom Skills Framework Unified Menu //
++E Experience //
++E Experience - MCM //
++E Skyrim Skill Uncapper for SE and AE //
++E Word Wall Transparency Fix for ENB //
++E Bard Instrumentals Mostly - Sing Rarely //
++E Combat Music Fix - Papyrus //
++E Fuz Ro D-oh - Silent Voice //
++E NPC Stuck in Bleedout fix //
++E Rogue's Gallery //
++E Better Jumping SE //
++E To Your Face SE - AE - VR //
++E Zero Bounty Hostility Fix //
++E IFrame Generator RE AE Support //
++E Perk Entry Point Extender //
++E Dual Casting Fix //
++E Screen Archer Menu Skyrim //
++E ENB Helper SE //
++E Comprehensive Attack Rate Patch - SKSE //
++E BodySlide and Outfit Studio //
++E USSEP Nemesis Patch //
++E Moddern Stagger Lock Framework //
++E JContainers SE //
++E JContainers - STR Fork //
++E Infinity UI //
++E Race Compatibility SKSE //
++E Save Unbaker //
++E Sprint Sneak Movement Speed Fix //
++E DnD-XP - Experience Mod INI Adjustments //
++E DND Update //
++E Actor Value Generator //
++E PrivateProfileRedirector SE - Faster game start (INI file cacher) //
++E Game Settings Override //
++E RemoveAllItems Freeze Fix //
++E NL_MCM - A Modular MCM Framework //
++E Auto Saver //
++E Auto Parallax //
++E Description Framework //
++E SKSE Menu Framework //
++E Auto Resolution //
++E Mfg Fix //
++E Mfg Fix NG //
++E Auto Audio Switch //
++E Modlist Update Checker //
++E Dynamic Dialogue Replacer //
++E Sprint Stuttering Fix //
++E Lexicon SKSE //
+
+# 02.1 CONSOLE
++E No Console Spam //
++E Console Commands Extender - Anniversary Edition Update //
++E ConsolePlusPlus //
++E More Informative Console //
++E ConsoleUtilSSE NG //
++E HelpExtender //
+
+# 02.2 HUD
++E SkyHUD //
++E TrueHUD - HUD Additions //
++E Curated Bosses for True HUD //
++E STB Widgets //
++E STB Active Effects //
++E Contextual Crosshair //
++E Contextual Crosshair - Crosshair and Detection Meter Fix //
++E Compass Navigation Overhaul //
++E QuickLootIE - A QuickLoot EE Fork //
++E Simple Activate SKSE //
++E SKYRIM AE DETECTION METER //
++E Show Player In Menus //
++E Favorites Menu Effects Description //
+
+# 02.3 UI
++E ImGui Icons //
++E Constructible Object Custom Keyword System //
++E Constructible Object Custom Keyword System - Seperate Weapon and Armor //
++E Cooking Categories Improvement (Constructible Object Custom Keyword System - Fixes) //
++E UIExtensions //
++E SkyUI //
++E SkyUI - Ghost Item Bug Fix //
++E MCM Helper //
++E SkyUI 3D Item Offset Fix (Centered Item Card - Script Fix - Improvement) //
++E Versatile Item and Group Re-Assignment - C.O.C.K.S. Enhanced //
++E Oblivion Interaction Icons //
++E Inventory Interface Information Injector //
++E Inventory Interface Information Injector - Alchemy Fix //
++E WIO Wheeler Icons Overhaul //
++E Kome Inventory Tweaks (KIT) //
++E B.O.O.B.I.E.S (aka Immersive Icons) //
++E I4 Weapon Icons Overhaul //
++E I4 Armor Icons Overhaul //
++E I4 Shout Icons Overhaul //
++E The Dragonborn's Bestiary //
++E Rumble //
++E Rumble Additions //
++E Widescreen Scale Removed for 1-6-1130 and higher //
+
+# 02.4 CAMERA
++E Better Third Person Selection - BTPS //
++E Clutter Filter for BTPS //
++E No Furniture Camera //
++E SmoothCam //
+-D Toggle Camera //
++E Wood Chopping Camera Glitch Fix //
++E 3rd Person Camera Stagger Remover //
+
+# 02.5 MAPS
++E CoMAP //
++E Local Map Upgrade //
++E HD Local Map //
++E Atlas Map Markers SE - Updated with MCM //
++E Weather of World //
++E Unique Map Weather //
++E A Clear Map of Skyrim and Other Worlds //
++E Unique Map Weather - Vanilla Additions //
+
+# 02.6 CONTROLS
+-D Gamepad Controlmap for Elden Power Attack //
+-D Gamepad Sprint Fix //
+-D Gamepad Button Freer //
++E Auto Input Switch //
++E True Directional Movement - Modernized Third Person Gameplay //
+
+# 03.1 AUDIO - SOUND
++E Phoenix Compendium //
+
+# 03.2 MUSIC
++E LORKHAN - Soundtrack Replacer //
+
+# 04.1 BASE MESHES & TEXTURES - EARLY LOADERS
++E Particle Patch for ENB //
++E Assorted Mesh Fixes //
+
+# 04.2 ARCHITECTURE
++E WiZkiD - Hall of the Dead Stained Glass Windows //
++E WiZkiD Riften and Ratway //
++E Rally's Riekling Outposts //
++E Solitude Mesh Fixes //
++E Halldir's Cairn Staircase //
++E Markarth - A Reflective Experience //
++E Markarth - A Mountainous Experience //
++E Windhelm Mesh Fixes //
++E Rally's Solstheim Landscapes //
++E Rally's Solstheim Plants //
++E Majestic Mountains - LOD Pack for DynDOLOD 3 //
++E Majestic Mountains - More Accurate Collision //
++E Majestic Mountains - Northside //
++E Majestic Mountains Main //
++E The Dragon Cult - A Draugr Overhaul //
++E Imperial Forts Patched - Parallax //
++E Imperial Forts - New Forts - Lod - Parallax //
++E Walls - LOD - Parallax //
++E Walls No Ropes - Parallax //
++E Walls - Parallax //
++E Ruin clutter Improved - LOD - Parallax //
++E Ruin Clutter improved - Parallax //
++E WiZkiD Farmhouses //
++E Farmhouse Chimneys //
++E RUSTIC MONUMENTS and TOMBSTONES //
++E Noble Skyrim Mod HD-2K - Hotfix //
++E Noble Skyrim Mod HD-2K - SMIM Patch //
++E Noble Skyrim Mod HD-2K //
++E Better Dynamic Ash SE //
++E Better Dynamic Snow SE v3.3 //
++E Designs of the Nords //
++E Ancient Dwemer Metal - My patches by Xtudo - Ancient Dwemer Metal - Remastered and Cleaned (HOTFIX) //
++E Ancient Dwemer Metal - My patches by Xtudo - Ancient Dwemer Metal - Remastered and Cleaned //
++E Skyrim 3D Rocks //
+
+# 04.3 LANDSCAPE
++E Iconic Statues 2 //
++E Iconic's Weathered Dragonstone Retexture //
++E Sufficiently Optimized Snowberries 3D //
++E Rally's Hanging Moss //
++E Renthal's Ferns //
++E Skyrim Flora Overhaul SE //
++E Cathedral - 3D Mountain Flowers //
++E Cathedral - 3D Pine Grass //
++E Folkvangr - Grass and Landscape Overhaul //
++E Cathedral Landscapes - Recolored Vanilla Grass Option Addon //
++E Enhanced Landscapes - Grass Patch - Performance //
++E Enhanced Landscapes - Oaks Standalone - Mixed Greens //
++E Enhanced Landscapes - Complex Grass - Desert Grass Extension //
++E Enhanced Landscapes - Complex Grass //
++E Enhanced Landscapes - Main Files //
++E Tamrielic Textures SE 1 - Landscapes (Vol 1 7 and 12 ONLY) //
+
+# 04.4 CAVES - MINES
++E Security Overhaul SKSE - Add-ons - EL Mines and Misc Patches //
++E Iconic's Remastered Ash Piles Of Skyrim //
++E Skyrim 3D Icefloes and Glaciers //
++E Stony AF Markarth and Dwemer Ruins (4K and 2K) //
+
+# 04.5 WATER - SNOW - ICE
++E Water Mod //
++E Splashes of Skyrim //
++E Skyrim 3D Icefloes and Glaciers (Copy for subcategory) //
++E Realistic Water Two SE v5.8.3 //
++E Better Dynamic Snow SE (Copy for subcategory) //
+
+# 04.6 WEATHERS - SKY
++E Volumetric Mists //
++E Improved Shadows and Volumetric Lighting //
++E NAT.ENB III - Natural and Atmospheric Tamriel ENB 3.1.2C //
++E Obsidian Weathers and Seasons //
+
+# 04.7 LIGHTING
++E ENB Light - Patch for Relighting Skyrim - Updated (2k) //
++E Embers XD //
++E Embers XD - Particle Patch for ENB //
++E Lux Via - plugin //
++E Lux Via - 2k //
++E Lux Orbis - Master File //
++E Lux Orbis - 2k //
++E Lux - Via and Orbis Patches //
++E Lux - Resources //
++E Lux - Master File //
++E Lux - Main Plugin //
++E Lux - DLCs and CC (meshes and patches) //
++E Lux - (Only) Vanilla Meshes (2k) //
++E Window Shadows RT and ENB //
++E Window Shadows //
++E Lightened Skyrim - AE - USSEP - v3.0 //
++E Relighting Skyrim - SSE //
+
+# 05.1 CLUTTER - FURNITURE - DECORATIONS
++E Business Ledger HD Retexture //
++E Skeleton and Human Bones - Lore Friendly //
++E Food Resized //
++E Detailing the Eldrich - Higher-Res Apocrypha - Temple of Miraak - Black Books //
++E Forgotten Retex Project //
++E Ruins Clutter Improved Fixes //
++E Ruins Clutter Improved //
++E Iconic's Blackreach Crystals Retexture //
++E TB's Improved Dust Piles //
++E Rally's Werewolf Totems //
++E TB's Improved Rivers //
++E ElSopa - HD Keys Redone SE //
++E Rally's Civil War Document Tubes //
++E Book Covers Skyrim //
++E JS Purses and Septims SE //
++E TB's Improved Blood Splatters //
++E Forgotten Retex Project - Sacks (4k) //
++E Rally's Fishing Poles //
++E Rally's Candlelight and Magelight Fix //
++E Rally's Dark Elf Furniture //
++E Rally's Smithing Tools //
++E Rally's Mead Barrels //
++E RUSTIC SOUL GEMS //
++E Rally's Nord War Horns //
++E Realistic HD Baskets Remastered //
++E RUSTIC POTTERY //
++E SABRECAT HD - 4k-2k - Full Version //
++E WEBS SE x1024-x512 //
++E Riekling Barrels Chests and Crates //
++E aMidianBorn - Book of Silence - Dragonborn DLC //
++E RUSTIC CLUTTER COLLECTION //
++E RUSTIC AZURA'S STAR //
++E JS Dwemer Control Cube SE //
++E JS Dwemer Ichor Barrels SE //
++E Iconic's Real Hay 4K //
++E Renthal's Wood Chopping Blocks //
++E Northern Shores - Better Boats and Ships //
++E Northern Shores SE - Dark Green Vanilla Plant Texture Reskin //
++E Training Dummies Retexture 4K //
+
+# 05.2 ITEMS - MISC - INGREDIENTS - CONTAINERS
++E Skyrim - A Mountainous Experience - No Snowy Peak - AIO //
++E Lockpicking Interface Redone //
++E Remiros' Statues HD //
++E Unique Solstheim Grass //
++E Skyrim Remastered - Glaciers and Ice - IMR Edition //
++E Skyrim 3D Misc - Giant Mortar and Pestle //
++E Beehives - HQ Retexture //
++E Iconic's Morthal Quest Coffin Retexture //
++E Rally's Night Mother Coffin //
++E Falmer Eye Gem Remodel //
++E Dragon Priest Staff Recolor //
++E Renthal's Blackreach Crystal Lanterns Mesh Fix //
++E Happy Little Logs //
++E Icy Mesh Remaster //
++E Improved Sparks //
++E Rally's Raven Rock //
++E Bloodstone Chalice Remastered //
++E Dibella Statue - My version SE by Xtudo //
++E LeanWolf's Better-Shaped Talos Statue (4k - 2k) //
++E Rally's Lava //
++E Rally's Tel Mithryn //
++E Nightingale Pride - Bow and Blade Reincarnation //
++E Ancient Automatons //
++E Gemling Queen Jewelry SE //
++E RUSTIC NORDIC MURALS //
++E Rally's Mead Barrels (Copy for subcategory) //
++E Rally's Smithing Tools (Copy for subcategory) //
++E JS Dwemer Artifacts SE //
++E Aetherial Crown SE //
++E RUSTIC WINDOWS - 2K //
++E RUSTIC ELDERSCROLL - Special Edition //
++E PELTAPALOOZA - Special Edition - FULL //
++E Aetherium Armor and Weapons Compilation //
++E JS Shout Apart Skeletons SE //
++E JS Shrines of the Divines SE //
++E JS Dragon Claws SE //
++E RUSTIC DAEDRA - SSE //
++E Forgotten Retex Project (Copy for subcategory) //
++E ElSopa - Papers HD SE //
++E ElSopa - HD Keys Redone SE (Copy for subcategory) //
+
+# 05.3 PLANTS - FOOD - ALCHEMY
++E Glorious Doors of Skyrim (GDOS) - PROPER //
++E Renthal's Riften Mobile Alchemy Table Fix //
++E Iconic's Moon Crest Retexture //
++E Skyrim 3D Trees and Plants //
++E Skyrim 3D Landscapes - Groundcover pack with grass //
++E Skyrim 3D Landscapes //
++E Skyrim 3D Cooking //
++E Skyrim 3D High Hrothgar Steps //
++E True Homecooked Meal //
++E Night Mother Reborn //
++E RUGNAROK - Special Edition //
++E High Poly Project (2K) //
++E Rally's Ants //
++E Cathedral - 3D Thistle //
++E 3D Whiterun Trellis Expansion //
+
+# 13.1 ARMOURS - REPLACERS
++E LeanWolf's Better-Shaped Weapons - All in One Installer //
++E LeanWolf's Better-Shaped Talos with Greatsword //
++E Better-Shaped Bows of the Heavens SE //
++E RUSTIC CLOTHING - Special Edition //
++E Closed Helmets //
+
+# 13.2 WEAPONS - NEW
++E Heavy Armory - New Weapons //
+
+# 13.4 CLOTHING - ITEMS
++E Underwear.dll //
++E Equippable Underwear for NPCs - Fixed Body Slots //
++E The New Gentleman - Underwear.dll Patch //
+
+# 13.5 JEWELRY
++E RUSTIC AMULETS - Special Edition //
+
+# 14.1 COMBAT
++E Elden Parry //
++E Precision Elden Parry Compatibility toml //
++E BFCO - Attack Behavior Framework //
++E BFCO Universal Support //
++E BFCO Elden Parry Patch //
++E BFCO Elden Parry Precision Patch //
++E Precision Creatures //
++E Maxsu Block Overhaul //
++E SkyValor //
++E Mortal Enemies - SkyPatched //
++E The Restless Dead - Mortal Enemies - SkyPatcher //
++E More Consistent Stamina Costs for Shield of Stamina //
++E Combat Pathing Revolution //
++E Combat Pathing Revolution AE //
++E Project Gap Close - NPC Sprint Attacks and Dynamic Combat Pathing Revolution //
++E NPC Spell Variance - Spell Variety AI //
++E DCA - Dragon Combat Animations //
++E DNFA Wolves Combat Behavior //
++E Simple Timed Block //
++E Immersive Weapon Switch - SKSE plugin //
+
+# 14.2 COMBAT MOVESETS
++E Vanargand Animations - Sneak Crossbows //
++E Vanargand Animations - Crossbows //
++E Vanargand Animations - Dual Wield Sneak Thrusts //
++E Vanargand Animations - Dual Wield Sneak Strikes //
++E Vanargand Animations - Dual Wield Normal and Power Attacks //
++E Vanargand Animations - One Handed Power Attacks //
++E Vanargand Animations - One Handed Normal Attacks //
++E Vanargand Animations - Sneak Thrust Attacks //
++E Vanargand Animations - Sneak Strike Attacks //
++E Vanargand Animations - Sneak idle walk and run //
++E Leviathan Animations II - Greatsword Sneak Locomotion And Attacks //
++E Leviathan Animations II - Greatsword Power And Sprint Attacks //
++E Leviathan Animations II - Greatsword Normal Attacks //
++E Leviathan Animations II - Greatsword Non Combat Locomotion //
++E Goetia Animations - Sneak Magic //
++E Goetia Animations - Enchanted Staves //
++E Goetia Animations - Magic Spell Casting //
++E BFCO - elden rim moveset collection (SCAR) //
++E ADXP I MCO I BFCO ER Twinblades (SCAR Precision) //
++E ADXP I MCO I BFCO ER Mixed Scythe (SCAR) //
++E ADXP I MCO I BFCO ER rapiers (SCAR) //
++E ADXP I MCO I BFCO ER Katana (SCAR) //
++E ADXP I MCO I BFCO Elden Rim Dual Wield moveset collection //
++E SkyTactics - Dynamic Combat Styles //
+
+# 14.3 MOVEMENT ANIMATIONS
++E Conditional Armor Type Animations //
++E Runway Walk Animation //
++E Vanargand Animations II - Sprint //
++E Vanargand Animations II - Male Idle Walk And Run //
++E Vanargand Animations II - Female Idle Walk And Run //
++E Leviathan Animations II - Sprint //
++E Leviathan Animations II - Male Idle Walk And Run //
++E Leviathan Animations II - Female Idle Walk And Run //
++E Goetia Animations - Sprint //
++E Goetia Animations - Male Idle Walk And Run //
++E Goetia Animations - Female Idle Walk And Run //
+
+# 14.4 IDLES - OTHER ANIMATIONS
++E Unclench //
++E Left Hand Equipment Overhaul //
++E Dynamic Feminine Female Modesty Animations OAR //
++E Dynamic Feminine Female Modesty Animations - Modesty Detection DISTR //
++E Dynamic Feminine Female Modesty Animations - Modesty Vanilla DLC KID //
++E Dynamic Feminine Female Modesty Animations - Nexus modesty KID //
++E Dynamic Feminine Female Modesty Animations OAR - Custom modesty KID //
++E Arm Movement Animations (OAR) //
++E Conditional tavern cheering (OAR) //
++E Gesture Animation Remix (OAR) //
++E Lively Children Animations (OAR) //
++E Lively cart driver animation replacer or OAR //
++E New Praying Animations (OAR) //
++E NPC Animation Remix (OAR) //
++E Conditional Dog Barking (OAR) //
++E Random death animation //
++E Jump Slide Fix OAR //
++E Another Jump Animation - OAR //
++E Dynamic Torch Idle Animations //
++E Dynamic Female Wall Leaning //
++E Dynamic Female Weather Idles //
++E Dynamic Female Swimming Idles //
++E Dynamic Female Table Leaning //
++E Dynamic Female Rail Leaning //
++E Dynamic Female Ledge Sitting //
++E Dynamic Female Hand Warming //
++E Improved Barstool Exit Animation //
++E Improved Table Sit Transition Animations //
++E Improved Idle Laydown Animations //
++E Weapon Styles - Draw-Sheathe animations for IED //
++E Weapon Styles for IED (CPR) //
++E Seamless Varied Feminine Idles OAR //
++E Modern Female Sitting Animations Overhaul //
++E Animated Interactions SKSE //
+
+# 15.1 SPID DISTRIBUTION
++E RMB SPIDified - Core //
++E RMB SPIDified - Regional Keyword Framework //
++E Sonders Keyword Distribution Resources //
++E dTry Plugin Updates //
++E Universal (SKSE) Rim Lighting Fix //
++E Keyword Patch Collection //
++E FormList Patch Collection //
++E I4 Weapon Icons Overhaul - KIT Wheeler Patch //
+
+# 15.2 MISCELLANEOUS PATCHES - BUG FIXES - SCRIPT FIXES
++E SDA Patch Hub SE //
++E WIDeadBodyCleanupScript Crash Fix //
++E NPC Infinite Block Fix //
++E Race Attack Fixes - SkyPatcher //
++E NPC Infinite Block Fix - SkyPatched //
++E AI Overhaul SSE - Official Patch Hub //
++E Falmer Overhaul - My patches SE by Xtudo //
++E Draugrs - My patches - SE by Xtudo //
++E Draugrs - SE by Xtudo - LeanWolfs Better-Shaped //
++E Flute Animation Fix //
++E Camera Persistence Fixes //
++E Grain Mill Animation Fix //
++E Stuck on Sleeper Fix - Exit Noble Bed Double 02 //
++E High Gate Ruins Puzzle Reset Fix //
++E College of Winterhold Quest Start Fixes //
++E King Olaf's Fire Festival Not Ending Fix //
++E Neloth's Experimental Subject Quest (DLC2TTR4a) Fix //
++E Magic Student (WIChangeLocation04) Quest Fix //
++E Horse Save Load Fix //
++E LOD Unloading Bug Fix //
++E The Dragonborn's Bestiary - Vanilla Addon //
++E The Dragonborn's Bestiary - Mandragorasprouts Hagraven //
++E The Dragonborn's Bestiary - 4thUnknown Addons //
++E The Dragonborn's Bestiary - Draugrs //
++E The Dragonborn's Bestiary - Dragon Priests //
++E Animated Static Reload Fix - NG //
++E OMEAR Addition - Skyrim Extended Cut S-and-S //
++E Killmove Fixes //
++E Weapon Switch Animation Fix - Behavior Patch Version //
++E Hunters Not Bandits //
++E FYX - Alpha Blood Blending Bug - NG //
+
+# 15.3 PERFORMANCE
++E ENB Frame Generation //
++E eFPS - Exterior FPS boost //
++E eFPS - Anniversary Edition //
++E Lightened Skyrim - Base Object Swapper edition //
++E NVIDIA Reflex Support //
+
+# 15.4 LATE LOADERS
++E SC - KS Hairdos Retextured - Patches //
++E Race Compatibility SKSE - Patch Hub //
+-D Dear Diary Dark Mode - SkyUI Menus Replacer SE //
+-D Dear Diary Dark Mode - VIAGRA Patch //
++E Static Skill Leveling Rewritten //
++E Static Skill Leveling - Uncapper Preset //
++E Tween Menu Overhaul //
++E Quest Journal Overhaul //
++E Loading Menu Overhaul //
+-D Dragonborn Reskin - The Dragonborn's Bestiary's Icon Overhaul //
++E Oathvein UI //
+
+# 15.5 MCM HELPER - SETTINGS LOADERS
++E MCM Recorder //
++E Better Vampires - Settings Loader //
+
+# 15.6 DynDOLOD
++E 1 - DynDOLOD DLL SE - Scripts //
++E 2 - DynDOLOD DLL SE - Steam - 1.6.1170 //
+-D DynDOLOD DLL NG //
++E DynDOLOD TexGen Fixes //
++E Lod Model Library for DynDOLOD //
+
+# 16.4 SKYRIM TOGETHER REBORN
++E Skyrim Together Reborn Features Integration //
+-D Skyrim Together Reborn - Nemesis Patches //
+
+# 17.2 SYNTHESIS OUTPUT
++E Synthesis Output //
+
+# 17.3 BODYSLIDE OUTPUT
++E Bodyslide Output //
+-D BHUNP NeverNude //
+-D HIMBO Nevernude //
+
+# 17.4 NEMESIS OUTPUT
++E Nemesis Output //
+
+# 17.5 WRYE BASH OUTPUT
++E Wrye Bash Output //
+
+# 17.9 MOD SETTINGS
++E Mod Settings //
+
+# 18.0 LODGEN OUTPUT
++E LODGen Output //
+
+# 18.1 TEXGEN OUTPUT
++E TexGen Output //
+
+# 18.2 DYNDOLOD OUTPUT
++E DynDOLOD Output //
+
+# 18.3 MOD PATCHES
++E Mod Patches //
+
+# UNSORTED (Recent Additions)
+-D Improved Alternate Conversation Camera //
+-D Oathvein UI - Racemenu DIP //
+-D Misc Utility Plugins - Automatic Patcher //
+-D Photo Mode //
+-D DBD - Asset Template //
+-D Dynamic Body Distribution - DBD //
+-D Load Screen Shading Fix //
+-D Skyrim Souls RE - Updated - (Fixed) //
+-D Skyrim Souls RE - Updated //
+-D Creation Club Integration - Armours //
+-D Modex - A Mod Explorer Menu (AddItemMenu) //
+-D Weapon Switch Animations Complete //
+-D Skyrim Dual Sense Adaptive Trigger Mod AE and SSE //
+-D Dialogue History //
+-D Dynamic Location Pop-ups //
+-D Death Drop Overhaul //
+-D Inertia (Floating Gear Fix) //
+-D Death Idle Fix //
+-D Obscure Animations Overhaul //
+-D Non-Horse Mount Animation Fix //
+-D RMB - Actor Reference Fixes //
+```
+
+---

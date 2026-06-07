@@ -18,6 +18,45 @@ M = Modified Mod (Give summary of changes)
 
 ---
 
+# Version 3.4.1
+
+06/06/2026 XX:XX UTC :: SKSE Launch - Untested | STR Launch - Untested
+// Version 3.4.1 hotfix - CTD fix + skill system cleanup + new NPC replacers
+// dTry Plugin Updates disabled: it ships EldenParry.dll which looks for a now-missing ESP, causing CTDs. Parry for All is the active parry system on this branch while we test
+// Static Skill Leveling stack + Custom Skills Framework stack disabled: NEW SKILL MENU integrates both natively, so the standalone stacks are redundant
+// DnD-XP stack disabled for testing: STR multiplayer level desync (e.g. one player can leave Bleak Falls at lvl 5 while their party member somehow leaves at lvl 35)
+// APAS Reborn AP Voice Addon Patch installed as its own folder so it can't accidentally overwrite AP Reborn (same Nexus page hosts both)
+// Milfactory College of Winterhold replacers: author came back and dropped the new MCW set
+```
+# 01.1 EARLY LOADERS - CORE
++E APAS Reborn - AP Voice Addon Patch // Added version 1.0.1.0 - Installed as separate folder to avoid accidental overwrite of AP Reborn (shared Nexus page)
+
+# 01.2 MODDER RESOURCES - UTILITIES - CORE FIXES
+D Custom Skills Framework // Disabled - NEW SKILL MENU has this integrated, standalone framework redundant
+D Custom Skills Menu - A Custom Skills Framework Unified Menu // Disabled - NEW SKILL MENU covers it
+D DND Update // Disabled for testing - suspected source of STR multiplayer level desync (lvl 5 / lvl 35 split leaving Bleak Falls together)
+D DnD-XP - Experience Mod INI Adjustments // Disabled for testing - paired with DND Update while we isolate the STR XP desync
+
+# 11.4 NPC - LOOKS
++E Milfactory - Mature College of Winterhold - Brelyna // Added version 1.0.0.0 - Author returned and dropped a rebuilt College of Winterhold series
++E Milfactory - Mature College of Winterhold - Colette // Added version 1.0.0.0 - New MCW series
++E Milfactory - Mature College of Winterhold - Faralda // Added version 1.0.0.0 - New MCW series
++E Milfactory - Mature College of Winterhold - Mirabelle // Added version 1.0.0.0 - New MCW series
++E Milfactory - Mature College of Winterhold - Nirya // Added version 1.0.0.0 - New MCW series
+
+# 11.7 FOLLOWERS
+D Ashe Static Skill Leveling Patch // Disabled - parent mod (Static Skill Leveling Rewritten) disabled; NEW SKILL MENU covers the underlying system
+
+# 15.2 MISCELLANEOUS PATCHES - BUG FIXES - SCRIPT FIXES
+D dTry Plugin Updates // Disabled - shipped EldenParry.dll hunts for a now-missing ESP and causes CTDs. Parry for All is the active parry system on this branch
+
+# 15.4 LATE LOADERS
+D Static Skill Leveling Rewritten // Disabled - NEW SKILL MENU has the system integrated natively
+D Static Skill Leveling - Uncapper Preset // Disabled - parent mod disabled; NEW SKILL MENU covers it
+```
+
+---
+
 # Version 3.4.0
 
 06/06/2026 XX:XX UTC :: SKSE Launch - Success | STR Launch - Untested

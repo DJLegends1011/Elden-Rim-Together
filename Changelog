@@ -21,14 +21,19 @@ M = Modified Mod (Give summary of changes)
 # Version 3.4.1
 
 06/06/2026 XX:XX UTC :: SKSE Launch - Untested | STR Launch - Untested
-// Version 3.4.1 hotfix - CTD fix + skill system cleanup + new NPC replacers
+// Version 3.4.1 hotfix - CTD fix + skill system cleanup + new NPC replacers + missed Nexus updates + new conditional sneak animations
 // dTry Plugin Updates disabled: it ships EldenParry.dll which looks for a now-missing ESP, causing CTDs. Parry for All is the active parry system on this branch while we test
 // Static Skill Leveling stack + Custom Skills Framework stack disabled: NEW SKILL MENU integrates both natively, so the standalone stacks are redundant
 // DnD-XP stack disabled for testing: STR multiplayer level desync (e.g. one player can leave Bleak Falls at lvl 5 while their party member somehow leaves at lvl 35)
 // APAS Reborn AP Voice Addon Patch installed as its own folder so it can't accidentally overwrite AP Reborn (same Nexus page hosts both)
+// DVA - Better Vampires Patch installed as its own folder so it can't accidentally overwrite DVA (same shared-page pattern as APAS Reborn)
+// NPC Spell Variance - Vanilla Runes for Spellcasters (SPID) installed as its own folder for the same reason - shared Nexus page with the base mod
 // Milfactory College of Winterhold replacers: author came back and dropped the new MCW set
+// BHUNP Skyrim Vanilla Outfits hotfix 2.3.0.0b added per author
+// Dynamic Relaxed Sneak OAR added - new conditional animation set from the Modesty author, same style; OAR integration for Vanilla Sneak Animations pulled in as its required dependency
 ```
 # 01.1 EARLY LOADERS - CORE
+M Unofficial Skyrim Modder's Patch - USMP SE // Updated to 2.6.7.0
 +E APAS Reborn - AP Voice Addon Patch // Added version 1.0.1.0 - Installed as separate folder to avoid accidental overwrite of AP Reborn (shared Nexus page)
 
 # 01.2 MODDER RESOURCES - UTILITIES - CORE FIXES
@@ -46,6 +51,21 @@ D DnD-XP - Experience Mod INI Adjustments // Disabled for testing - paired with 
 
 # 11.7 FOLLOWERS
 D Ashe Static Skill Leveling Patch // Disabled - parent mod (Static Skill Leveling Rewritten) disabled; NEW SKILL MENU covers the underlying system
+
+# 12.1 VAMPIRES - WEREWOLVES
+M DVA - Dynamic Vampire Appearance // Updated from 1.0.0.0 to 1.4.0.0
++E DVA - Better Vampires Patch // Added - Installed as separate folder to avoid accidental overwrite of DVA (shared Nexus page)
+
+# 13.1 WEAPONS - ARMOUR REPLACERS
++E BHUNP Skyrim Vanilla Outfits - Hotfix // Added version 2.3.0.0b - Author dropped a hotfix
+
+# 14.1 COMBAT
+M NPC Spell Variance - Spell Variety AI // Updated from 2.1.6.0 to 2.6.2.0
++E NPC Spell Variance - Spell Variety AI - Vanilla Runes for Spellcasters (SPID) // Added version 2.1.6.0 - Installed as separate folder to avoid accidental overwrite of base mod (shared Nexus page)
+
+# 14.4 IDLES - OTHER ANIMATIONS
++E Dynamic Relaxed sneak OAR // Added version 1.00 - New conditional animation set from the Modesty author, same style
++E OAR integration for Vanilla Sneak animations // Added version 1.00 - Required dependency for Dynamic Relaxed sneak OAR
 
 # 15.2 MISCELLANEOUS PATCHES - BUG FIXES - SCRIPT FIXES
 D dTry Plugin Updates // Disabled - shipped EldenParry.dll hunts for a now-missing ESP and causes CTDs. Parry for All is the active parry system on this branch

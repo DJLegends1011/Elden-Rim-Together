@@ -18,6 +18,40 @@ M = Modified Mod (Give summary of changes)
 
 ---
 
+# Version 3.4.2
+
+06/12/2026 12:55 UTC :: SKSE Launch - Untested | STR Launch - Untested
+// Version 3.4.2 hotfix - Nexus mod updates, OAR animation pack refresh, Pandora behavior rebuild
+// Better Vampires main mod updated by author; DVA - Better Vampires Patch updated alongside it (kept in its own folder, shared Nexus page)
+// BHUNP Skyrim Vanilla Outfits hotfix rolled from 2.3.0.0b to 2.3.0.0a per author
+// 17.4 Pandora Output rebuilt against the 3.4.1 mod set
+```
+# 01.1 EARLY LOADERS - CORE
+D Animation Motion Fix // Disabled
+
+# 01.2 MODDER RESOURCES - UTILITIES - CORE FIXES
+M Crash Logger SSE AE VR - PDB support // Updated from 1.22.0.0 to 1.23.1.0
+
+# 12.1 VAMPIRES - WEREWOLVES
+M DVA - Better Vampires Patch // Updated from d2025.6.14.0 to 1.0.0.0 - Tracks the Better Vampires main mod update
+
+# 13.1 WEAPONS - ARMOUR REPLACERS
+M BHUNP Skyrim Vanilla Outfits - Hotfix // Updated from 2.3.0.0b to 2.3.0.0a - Author re-release
+
+# 13.2 WEAPONS - NEW
+M Heavy Armory - New Weapons // Updated from 6.2.5.0 to 6.2.6.0
+
+# 14.4 IDLES - OTHER ANIMATIONS
+M Arm Movement Animations (OAR) // Updated from 3.0.0.0 to 3.0.1.0
+M Gesture Animation Remix (OAR) // Updated from 2.3.0.0 to 2.4.0.0
+M NPC Animation Remix (OAR) // Updated from 2.2.0.0 to 2.3.0.0
+
+# 17. TOOL OUTPUTS
+M 17.4 Pandora Output // Updated from 3.3.0.0 to 3.4.1.0 - Rebuilt behaviors
+```
+
+---
+
 # Version 3.4.1
 
 06/06/2026 XX:XX UTC :: SKSE Launch - Untested | STR Launch - Untested

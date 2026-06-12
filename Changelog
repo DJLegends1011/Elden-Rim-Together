@@ -27,7 +27,7 @@ M = Modified Mod (Give summary of changes)
 // 17.4 Pandora Output rebuilt against the 3.4.1 mod set
 ```
 # 01.1 EARLY LOADERS - CORE
-D Animation Motion Fix // Disabled
+D Animation Motion Fix // Disabled - Source of random roaming CTDs (confirmed on the Nexus page); latest update claimed a fix but players still crash
 
 # 01.2 MODDER RESOURCES - UTILITIES - CORE FIXES
 M Crash Logger SSE AE VR - PDB support // Updated from 1.22.0.0 to 1.23.1.0

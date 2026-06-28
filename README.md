@@ -8,8 +8,8 @@ A Wabbajack modpack built around the hard part: making a heavily-modded, modern 
 
 ---
 
-**Current Version:** 3.4.0
-**Last Updated:** June 6, 2026
+**Current Version:** 3.4.2
+**Last Updated:** June 28, 2026
 **Game Version:** Skyrim Special Edition 1.6.1170+
 **Wabbajack File:** `Elden Rim Together.wabbajack`
 
@@ -566,4 +566,4 @@ This modlist is provided free of charge for personal use. All mods remain the pr
 
 ---
 
-*Last Updated: June 6, 2026 — Version 3.4.0*
+*Last Updated: June 28, 2026 — Version 3.4.2*
